@@ -1,10 +1,31 @@
 <html>
 <head>
 	<title>Hello</title>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
 </head>
 <body>
-	<div id="content">
-		Hello World. Site is Loading...
+	<div id="content" style="text-align: center">
+		Hello World. Site is Loading.
 	</div>
 </body>
+<script>
+	$(document).ready(function(){
+		var count = 1;
+		var appendDot = function() {
+			if(count == 0)
+				$("#content").html("Hello World. Site is Loading.");
+			if(count == 1)
+                                $("#content").html("Hello World. Site is Loading..");
+			if(count == 2)
+                                $("#content").html("Hello World. Site is Loading...");
+			if(count == 3)
+                                $("#content").html("Hello World. Site is Loading....");
+			if(count == 4)
+                                $("#content").html("Hello World. Site is Loading.....");
+			
+			count = (count + 1) % 5;
+		}
+		setInterval(appendDot, 1000);
+	});
+</script>
 </html>
