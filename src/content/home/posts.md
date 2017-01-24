@@ -15,8 +15,10 @@ weight = 40
 # Show posts that contain the following tags. Default to any tags.
 tags = []
 
+view = 1
+
 # Number of posts to list.
-count = 5
+count = 4
 
 +++
 
