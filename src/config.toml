@@ -5,7 +5,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "iamsadlil"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir = false
   organization = "AppsCode Ltd."
   avatar = "sadlil.jpg"
   email = "sadlil.rhythm@gmail.com"
-  address = "Road 10, Sector 10, Uttara, Dhaka."
+  address = "Road 10, Sector 10, Uttara, Dhaka, Bangladesh."
   phone = "+88 01714771513"
   skype = "sadlil.rhythm"
   telegram = "sadlil"
