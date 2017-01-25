@@ -14,14 +14,18 @@ case "$1" in
         ;;
 	build)
 	    hugo --source=src
+	    cp -R src/public/. .
 		;;
 	deploy)
-	    cp -R src/public/. .
+	    cp -R src/public/. .git add --all
+		git commit -m "$2"
 		git push origin master
 		;;
 	push)
 		hugo --source=src
 		cp -R src/public/. .
+		git add --all
+		git commit -m "$2"
 		git push origin master
 		;;
 	*)  echo $"Usage: $0 {serve|build|deploy|push}"
