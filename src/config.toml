@@ -182,7 +182,12 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Posts"
   url = "/post/"
-  weight = 18
+  weight = 17
+
+[[menu.main]]
+  name = "Photography"
+  url = "https://www.flickr.com/photos/80878359@N08/"
+  weight = 19
 
 [[menu.main]]
   name = "Projects"
@@ -192,12 +197,12 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Resume"
   url = "/downloads/sadlil-resume.pdf"
-  weight = 20
+  weight = 21
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 19
+  weight = 20
 
 # Taxonomies.
 [taxonomies]

@@ -13,18 +13,23 @@ weight = 1
 [interests]
   interests = [
     "Competitive Programming",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Data Science",
+    "Astro Physics",
+    "Open Source",
+    "Photography"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "BSc in Information and Communication Technology"
-  institution = "Mawlana Bhashani Science and Technology University"
+  institution = "Mawlana Bhashani Science and Technology University, Bangladesh."
   year = 2014
  
 +++
 
-This is still a demo site under construction.
+
+### Sadlil's
+
+I am currently Migrating my site to HUGO. Original Site will Be available Soon.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
