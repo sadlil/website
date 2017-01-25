@@ -1,11 +1,11 @@
 baseurl = "https://sadlil.github.io"
 title = "Sadlil's"
-copyright = "&copy; 2017 Sadlil"
+copyright = "&copy; 2017 Kazi Sadlil Rhythom"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "iamsadlil"
+disqusShortname = "sadlil-com"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
