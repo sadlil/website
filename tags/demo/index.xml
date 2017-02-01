@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo on Sadlil&#39;s</title>
-    <link>https://sadlil.github.io/tags/demo/index.xml</link>
+    <link>https://sadlil.com/tags/demo/index.xml</link>
     <description>Recent content in Demo on Sadlil&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>External Project</title>
-      <link>https://sadlil.github.io/project/example-external-project/</link>
+      <link>https://sadlil.com/project/example-external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://sadlil.github.io/project/example-external-project/</guid>
+      <guid>https://sadlil.com/project/example-external-project/</guid>
       <description></description>
     </item>
     

@@ -384,7 +384,7 @@ h3.article-title{
 }
 
 .article-metadata {
-  margin-bottom: 20px;
+  margin: 10px 0;
   line-height: 30px; /* Match share bar line height. */
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -418,7 +418,8 @@ h3.article-title{
 .article-style p {
     overflow: hidden;
     display: block;
-    max-height: 250px;
+    font-size: 16px;
+    color: #929292;
 }
 
 .ellipsis {
@@ -1109,4 +1110,51 @@ div.alert a:hover {
   color: #fff;
   background-color: #f44336; /* Material Red500 */
   border-color: #ebccd1;
+}
+
+.blog-post {
+    margin-top: 30px;
+    background: #fff;
+    display: inline-block;
+    min-height: 600px;
+    height: 600px;
+}
+.blog-img {
+  padding: 0;
+  margin: 0;
+}
+
+.blog-title {
+  padding: 30px;
+}
+
+.blog-title h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  word-break: break-word;
+  padding-bottom: 10px;
+}
+
+.blog-title h2 a{
+  color: #3bb878;
+  font-weight: 600;
+  font-size: 20px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.blog-title h2 a:hover{
+  color: #565656;
+}
+
+
+.article-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.article-tags {
+  font-size: 14px;
+  color: #999;
 }
