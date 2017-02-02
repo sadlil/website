@@ -10,14 +10,14 @@ ROOT=$PWD
 case "$1" in
     serve)
         hugo server --watch --source=src
-        popd
         ;;
 	build)
 	    hugo --source=src
 	    cp -R src/public/. .
 		;;
 	deploy)
-	    cp -R src/public/. .git add --all
+	    cp -R src/public/. .
+	    git add --all
 		git commit -m "$2"
 		git push origin master
 		;;
