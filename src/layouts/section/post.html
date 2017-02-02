@@ -23,6 +23,10 @@
         <a href="{{ .Permalink }}">
           <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner">
         </a>
+        {{else}}
+        <a href="{{ .Permalink }}">
+          <img src="{{ $.Site.BaseURL }}img/banners/default-post.jpg" class="article-banner">
+        </a>
         {{end}}
       </div>
       <div class="blog-title">

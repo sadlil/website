@@ -366,7 +366,7 @@ article {
 }
 
 .article-title {
-  font-size: 1.75rem;
+  font-size: 1.50rem;
 }
 
 h3.article-title{
@@ -376,6 +376,8 @@ h3.article-title{
 
 .article-banner {
     margin-bottom:15px;
+    max-height: 200px;
+    overflow: hidden;
 }
 
 .article-title a {
@@ -409,7 +411,7 @@ h3.article-title{
 }
 
 .article-body-wrapper {
-    max-height: 400px;
+    max-height: 600px;
     display: block;
     overflow: hidden;
     margin-bottom: 30px;
@@ -1113,15 +1115,17 @@ div.alert a:hover {
 }
 
 .blog-post {
-    margin-top: 30px;
+    margin-top: 25px;
     background: #fff;
     display: inline-block;
-    min-height: 600px;
-    height: 600px;
+    min-height: 650px;
+    height: 650px;
 }
 .blog-img {
   padding: 0;
   margin: 0;
+  max-height: 250px;
+  overflow: hidden;
 }
 
 .blog-title {

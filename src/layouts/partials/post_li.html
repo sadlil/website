@@ -7,8 +7,13 @@
       {{ if $post.Params.image }}
       <div class="article-banner">
         <a href="{{ $post.Permalink }}">
-          <img src="{{ "/img/" | relURL }}{{ $post.Params.image }}" class="article-banner"
-          itemprop="image">
+          <img src="{{ "/img/" | relURL }}{{ $post.Params.image }}" class="article-banner" itemprop="image">
+        </a>
+      </div>
+      {{else}}
+      <div class="article-banner">
+        <a href="{{ $post.Permalink }}">
+          <img src="/img/banners/default-post.jpg" class="article-banner" itemprop="image">
         </a>
       </div>
       {{end}}
