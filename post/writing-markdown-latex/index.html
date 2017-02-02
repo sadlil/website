@@ -37,7 +37,7 @@
   <link rel="canonical" href="https://sadlil.com/post/writing-markdown-latex/">
 
   <script type="text/javascript">
-    if (window.location.protocol != "https:")
+    if ((window.location.hostname != "localhost") && (window.location.protocol != "https:"))
         window.location.protocol = "https";
 </script>
 
@@ -183,13 +183,9 @@
 </nav>
 
 <div class="container">
-
-  <article class="article" itemscope itemtype="http://schema.org/Article">
-
+  <article class="article full-article" itemscope itemtype="http://schema.org/Article">
     
-
     <h1 itemprop="name">Writing content with Markdown, LaTeX, and Shortcodes</h1>
-
     
 
 <div class="article-metadata">
@@ -252,7 +248,6 @@
   
 
 </div>
-
 
     <div class="article-style" itemprop="articleBody">
       <p>Content can be written using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown</a>, <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank">LaTeX math</a>, and <a href="http://gohugo.io/extras/shortcodes/" target="_blank">Hugo Shortcodes</a>. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.</p>
@@ -600,9 +595,10 @@ Here's some important information...
 </ol>
 </div>
     </div>
-
   </article>
 
+  <br>
+  <hr>
   <nav>
   <ul class="pager">
     
@@ -617,6 +613,7 @@ Here's some important information...
   </ul>
 </nav>
 
+  <hr>
   
 <section id="comments">
   <div id="disqus_thread">

@@ -37,7 +37,7 @@
   <link rel="canonical" href="https://sadlil.com/post/widgets/">
 
   <script type="text/javascript">
-    if (window.location.protocol != "https:")
+    if ((window.location.hostname != "localhost") && (window.location.protocol != "https:"))
         window.location.protocol = "https";
 </script>
 
@@ -183,13 +183,9 @@
 </nav>
 
 <div class="container">
-
-  <article class="article" itemscope itemtype="http://schema.org/Article">
-
+  <article class="article full-article" itemscope itemtype="http://schema.org/Article">
     
-
     <h1 itemprop="name">Customizing the homepage with widgets</h1>
-
     
 
 <div class="article-metadata">
@@ -264,7 +260,6 @@
 
 </div>
 
-
     <div class="article-style" itemprop="articleBody">
       
 
@@ -325,9 +320,10 @@
 <p>The order that the homepage widgets are displayed in is defined by the <code>weight</code> parameter in each of the files in the <code>content/home/</code> directory. The widgets are displayed in ascending order of their <code>weight</code>, so you can simply edit the <code>weight</code> parameters as desired.</p>
 
     </div>
-
   </article>
 
+  <br>
+  <hr>
   <nav>
   <ul class="pager">
     
@@ -336,12 +332,13 @@
     
 
     
-    <li class="next"><a href="https://sadlil.com/post/getting-started/">Getting started with the Academic framework for Hugo <span
+    <li class="next"><a href="https://sadlil.com/post/getting-started/">Hello World <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
 
+  <hr>
   
 <section id="comments">
   <div id="disqus_thread">

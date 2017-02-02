@@ -37,7 +37,7 @@
   <link rel="canonical" href="https://sadlil.com/post/migrate-from-jekyll/">
 
   <script type="text/javascript">
-    if (window.location.protocol != "https:")
+    if ((window.location.hostname != "localhost") && (window.location.protocol != "https:"))
         window.location.protocol = "https";
 </script>
 
@@ -183,13 +183,9 @@
 </nav>
 
 <div class="container">
-
-  <article class="article" itemscope itemtype="http://schema.org/Article">
-
+  <article class="article full-article" itemscope itemtype="http://schema.org/Article">
     
-
     <h1 itemprop="name">Migrate from Jekyll to Hugo</h1>
-
     
 
 <div class="article-metadata">
@@ -261,7 +257,6 @@
 
 </div>
 
-
     <div class="article-style" itemprop="articleBody">
       
 
@@ -300,9 +295,10 @@ With Jekyll, something that looked like</p>
 <p>Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610" target="_blank">diff</a>. However, bear in mind that this example is <strong>not specific to the Academic theme nor does it use the latest version of Hugo</strong>.</p>
 
     </div>
-
   </article>
 
+  <br>
+  <hr>
   <nav>
   <ul class="pager">
     
@@ -314,6 +310,7 @@ With Jekyll, something that looked like</p>
   </ul>
 </nav>
 
+  <hr>
   
 <section id="comments">
   <div id="disqus_thread">

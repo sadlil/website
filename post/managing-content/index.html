@@ -37,7 +37,7 @@
   <link rel="canonical" href="https://sadlil.com/post/managing-content/">
 
   <script type="text/javascript">
-    if (window.location.protocol != "https:")
+    if ((window.location.hostname != "localhost") && (window.location.protocol != "https:"))
         window.location.protocol = "https";
 </script>
 
@@ -183,13 +183,9 @@
 </nav>
 
 <div class="container">
-
-  <article class="article" itemscope itemtype="http://schema.org/Article">
-
+  <article class="article full-article" itemscope itemtype="http://schema.org/Article">
     
-
     <h1 itemprop="name">Managing content</h1>
-
     
 
 <div class="article-metadata">
@@ -263,7 +259,6 @@
   
 
 </div>
-
 
     <div class="article-style" itemprop="articleBody">
       <p>This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about <a href="https://sadlil.com/post/writing-markdown-latex/" target="_blank">writing content with Markdown, LaTeX, and Shortcodes</a>.</p>
@@ -394,9 +389,10 @@ Below is an automatically generated list of all my blog posts!
 
 <p>Note that running <code>hugo</code> does not remove any previously generated files before building. Therefore, it&rsquo;s best practice to delete your <code>public/</code> directory prior to running <code>hugo</code> to ensure no old or interim files are deployed to your server.</p>
     </div>
-
   </article>
 
+  <br>
+  <hr>
   <nav>
   <ul class="pager">
     
@@ -411,6 +407,7 @@ Below is an automatically generated list of all my blog posts!
   </ul>
 </nav>
 
+  <hr>
   
 <section id="comments">
   <div id="disqus_thread">

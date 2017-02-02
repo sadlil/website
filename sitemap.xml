@@ -4,6 +4,14 @@
     
     
     <url>
+      <loc>https://sadlil.com/post/getting-started/</loc>
+      <lastmod>2017-02-02T11:27:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://sadlil.com/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -52,14 +60,6 @@
     
     
     <url>
-      <loc>https://sadlil.com/post/getting-started/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://sadlil.com/post/widgets/</loc>
       <lastmod>2016-04-20T11:00:00+00:00</lastmod>
     </url>
@@ -101,7 +101,7 @@
     
     <url>
       <loc>https://sadlil.com/tags/academic/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
+      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -126,12 +126,21 @@
   
     
     
+    <url>
+      <loc>https://sadlil.com/tags/hello-world/</loc>
+      <lastmod>2017-02-02T11:27:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
   
     
     
     <url>
       <loc>https://sadlil.com/tags/hugo/</loc>
-      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
+      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

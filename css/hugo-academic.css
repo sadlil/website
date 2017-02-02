@@ -366,7 +366,7 @@ article {
 }
 
 .article-title {
-  font-size: 1.75rem;
+  font-size: 1.50rem;
 }
 
 h3.article-title{
@@ -376,6 +376,17 @@ h3.article-title{
 
 .article-banner {
     margin-bottom:15px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.article-banner-full {
+  height: 350px;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  clear: both;
 }
 
 .article-title a {
@@ -384,7 +395,7 @@ h3.article-title{
 }
 
 .article-metadata {
-  margin-bottom: 20px;
+  margin: 10px 0;
   line-height: 30px; /* Match share bar line height. */
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -409,7 +420,7 @@ h3.article-title{
 }
 
 .article-body-wrapper {
-    max-height: 400px;
+    max-height: 600px;
     display: block;
     overflow: hidden;
     margin-bottom: 30px;
@@ -418,7 +429,7 @@ h3.article-title{
 .article-style p {
     overflow: hidden;
     display: block;
-    max-height: 250px;
+    font-size: 16px;
 }
 
 .ellipsis {
@@ -1109,4 +1120,53 @@ div.alert a:hover {
   color: #fff;
   background-color: #f44336; /* Material Red500 */
   border-color: #ebccd1;
+}
+
+.blog-post {
+    margin-top: 25px;
+    background: #fff;
+    display: inline-block;
+    min-height: 650px;
+    height: 650px;
+}
+.blog-img {
+  padding: 0;
+  margin: 0;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.blog-title {
+  padding: 30px;
+}
+
+.blog-title h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  word-break: break-word;
+  padding-bottom: 10px;
+}
+
+.blog-title h2 a{
+  color: #3bb878;
+  font-weight: 600;
+  font-size: 20px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.blog-title h2 a:hover{
+  color: #565656;
+}
+
+
+.article-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.article-tags {
+  font-size: 14px;
+  color: #999;
 }

@@ -1,12 +1,12 @@
 +++
-date = "2016-04-20T12:00:00"
+date = "2017-02-02T11:27:00"
 draft = false
 image = "banners/blog.png"
-tags = ["academic", "hugo"]
-title = "Getting started with the Academic framework for Hugo"
+tags = ["hello world"]
+title = "Hello World"
 math = true
 summary = """
-Create a beautifully simple personal or academic website in under 10 minutes. 
+Hello from Sadlil. Site is built with HUGO and hosted in Github pages.
 """
 +++
 
