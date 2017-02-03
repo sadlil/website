@@ -31,5 +31,17 @@ weight = 1
 ### Sadlil's
 
 I am currently Migrating my site to HUGO. Original Site will Be available Soon.
+ 
+In few word I am - 
+ Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read and travel. 
+ 
+```
+- Knows How to write code in - Go, C, C++, Java, PHP, JavaScript.<br>
+- For Frameworks knows - Laravel 5, Spring 3, Grails. Worked with Hibernets.<br>
+- Knows MySQL, Postgres for SQL Database But deeply in love with Elasticsearch.<br>
+- Deploys things in - Kubernetes - containerized with Docker.<br>
+- Familiar with AWS, Google Cloud, gRPC, Jenkins, GlusterFS, HAProxy etc.<br>
+```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+**Personality:** ENTJ-A (The Commander)<br>
+**Life Philosophy:** *I don't Believe in Magic*.

@@ -4,7 +4,7 @@
     
     
     <url>
-      <loc>https://sadlil.com/post/getting-started/</loc>
+      <loc>https://sadlil.com/post/hello-world/</loc>
       <lastmod>2017-02-02T11:27:00+00:00</lastmod>
     </url>
     
@@ -60,30 +60,6 @@
     
     
     <url>
-      <loc>https://sadlil.com/post/widgets/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://sadlil.com/post/managing-content/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://sadlil.com/post/writing-markdown-latex/</loc>
-      <lastmod>2016-04-20T10:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
       <loc>https://sadlil.com/publication/false-alarm/</loc>
       <lastmod>2015-10-10T00:00:00+00:00</lastmod>
     </url>
@@ -92,16 +68,25 @@
     
     
     <url>
-      <loc>https://sadlil.com/post/migrate-from-jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <loc>https://sadlil.com/post/prime-bit-seive-bangla/</loc>
+      <lastmod>2014-02-03T11:00:00+00:00</lastmod>
     </url>
     
   
     
     
     <url>
-      <loc>https://sadlil.com/tags/academic/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
+      <loc>https://sadlil.com/tags/acm/</loc>
+      <lastmod>2014-02-03T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://sadlil.com/tags/bangla/</loc>
+      <lastmod>2014-02-03T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -139,8 +124,8 @@
     
     
     <url>
-      <loc>https://sadlil.com/tags/hugo/</loc>
-      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
+      <loc>https://sadlil.com/tags/number-theory/</loc>
+      <lastmod>2014-02-03T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -148,8 +133,8 @@
     
     
     <url>
-      <loc>https://sadlil.com/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <loc>https://sadlil.com/tags/prime/</loc>
+      <lastmod>2014-02-03T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

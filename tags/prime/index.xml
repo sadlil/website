@@ -1,93 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sadlil&#39;s on Sadlil&#39;s</title>
-    <link>https://sadlil.com/index.xml</link>
-    <description>Recent content in Sadlil&#39;s on Sadlil&#39;s</description>
+    <title>Prime on Sadlil&#39;s</title>
+    <link>https://sadlil.com/tags/prime/index.xml</link>
+    <description>Recent content in Prime on Sadlil&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Kazi Sadlil Rhythom</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://sadlil.com/post/hello-world/</link>
-      <pubDate>Thu, 02 Feb 2017 11:27:00 +0000</pubDate>
-      
-      <guid>https://sadlil.com/post/hello-world/</guid>
-      <description>&lt;p&gt;Hello from Sadlil.&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;In few word I am -
-Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read and travel.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Knows How to write code in - Go, C, C++, Java, PHP, JavaScript.
-For Frameworks knows - Laravel 5, Spring 3, Grails. Worked with Hibernets.
-Knows MySQL, Postgres for SQL Database But deeply in love with Elasticsearch.
-Deploys things in - Kubernetes - containerized with Docker.
-Familiuer with AWS, Google Cloud, gRPC, Jenkins, GlusterFS, HAProxy etc.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/sadlil&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://bd.linkedin.com/in/sadli&#34; target=&#34;_blank&#34;&gt;LinedIn&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/cv/sadlil&#34; target=&#34;_blank&#34;&gt;Stackoverflow Career Profile&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/iamsadlil&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Personality:&lt;/strong&gt; ENTJ-A (The Commander)&lt;/p&gt;
-
-&lt;p&gt;Life Philosophy: &amp;ldquo;I don&amp;rsquo;t Believe in Magic.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;This site is built with HUGO and Proudly Hosted in Github Pages.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>https://sadlil.com/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://sadlil.com/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://sadlil.com/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://sadlil.com/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://sadlil.com/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://sadlil.com/project/example-external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>False Alarm Detection in Wireless Body Sensor Network using Adaptive and Intelligent Approach</title>
-      <link>https://sadlil.com/publication/false-alarm/</link>
-      <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://sadlil.com/publication/false-alarm/</guid>
-      <description></description>
-    </item>
+    <atom:link href="/tags/prime/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>প্রাইম - বিট সিভ</title>
