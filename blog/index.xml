@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prime on Sadlil&#39;s</title>
-    <link>https://sadlil.com/tags/prime/index.xml</link>
-    <description>Recent content in Prime on Sadlil&#39;s</description>
+    <title>Blogs on Sadlil&#39;s</title>
+    <link>https://sadlil.com/blog/index.xml</link>
+    <description>Recent content in Blogs on Sadlil&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Kazi Sadlil Rhythom</copyright>
-    <atom:link href="/tags/prime/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://sadlil.com/blog/hello-world/</link>
+      <pubDate>Thu, 02 Feb 2017 11:27:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/blog/hello-world/</guid>
+      <description>&lt;p&gt;Hello from Sadlil.&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;In few word I am -
+Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read and travel.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Knows How to write code in - Go, C, C++, Java, PHP, JavaScript.
+For Frameworks knows - Laravel 5, Spring 3, Grails. Worked with Hibernets.
+Knows MySQL, Postgres for SQL Database But deeply in love with Elasticsearch.
+Deploys things in - Kubernetes - containerized with Docker.
+Familiuer with AWS, Google Cloud, gRPC, Jenkins, GlusterFS, HAProxy etc.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sadlil&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bd.linkedin.com/in/sadli&#34; target=&#34;_blank&#34;&gt;LinedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/cv/sadlil&#34; target=&#34;_blank&#34;&gt;Stackoverflow Career Profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/iamsadlil&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Personality:&lt;/strong&gt; ENTJ-A (The Commander)&lt;/p&gt;
+
+&lt;p&gt;Life Philosophy: &amp;ldquo;I don&amp;rsquo;t Believe in Magic.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;This site is built with HUGO and Proudly Hosted in Github Pages.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>প্রাইম - বিট সিভ</title>

@@ -1,0 +1,53 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<style>
+  body{
+    background: #f9f9f9 !important;
+  }
+</style>
+
+<div class="container">
+  <h1></h1>
+  {{ with .Content }}
+  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  {{ end }}
+
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $paginator.Pages }}
+  <div class="col-md-4">
+    <div class="blog-post">
+
+      <div class="blog-img">
+        {{ if .Params.image }}
+        <a href="{{ .Permalink }}">
+          <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner">
+        </a>
+        {{else}}
+        <a href="{{ .Permalink }}">
+          <img src="{{ $.Site.BaseURL }}img/banners/default-post.jpg" class="article-banner">
+        </a>
+        {{end}}
+      </div>
+      <div class="blog-title">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ partial "article_metadata" (dict "content" . "is_list" 1) }}
+        <div class="article-style"><p {{ if .Params.summary }}style="height: 260px;"{{else if .Truncated}}style="height: 260px;"{{end}}>
+          {{ if .Params.summary }}
+          {{ printf "%s" .Params.summary | markdownify }}
+          {{ else if .Truncated }}
+          {{ printf "%s" .Summary | markdownify }}
+          {{ else }}
+          {{ .Content }}
+          {{ end }}
+        </p></div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+
+  {{ partial "pagination" . }}
+
+</div>
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

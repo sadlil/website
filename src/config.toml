@@ -180,8 +180,8 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
-  url = "/post/"
+  name = "Blog"
+  url = "/blog/"
   weight = 17
 
 [[menu.main]]

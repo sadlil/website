@@ -65,7 +65,7 @@ To create a blog/news article:
 
     hugo new post/my-article-name.md
 
-Then edit the newly created file `content/post/my-article-name.md` with your full title and content.
+Then edit the newly created file `content/blog/my-article-name.md` with your full title and content.
 
 Hugo will automatically generate summaries of posts that appear on the homepage. If you are dissatisfied with an automated summary, you can either limit the summary length by appropriately placing <code>&#60;&#33;&#45;&#45;more&#45;&#45;&#62;</code> in the article body, or completely override the automated summary by adding a `summary` parameter to the `+++` preamble such that:
 
@@ -91,7 +91,7 @@ Then edit the newly created file `content/talk/my-talk-name.md` with your full t
 
 ## Manage node index pages
 
-The node index pages (e.g. `/post/`) are the special pages which list all of your content. They can exist for blog posts, publications, and talks. The homepage widgets will automatically link to the node index pages when you have more items of content than can be displayed in the widget. Therefore, if you don't have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.
+The node index pages (e.g. `/blog/`) are the special pages which list all of your content. They can exist for blog posts, publications, and talks. The homepage widgets will automatically link to the node index pages when you have more items of content than can be displayed in the widget. Therefore, if you don't have much content, you may not see the automatic links yet - but you can also manually link to them using a normal Markdown formatted link in your content.
 
 You can edit the title and add your own content, such as an introduction, by creating and editing the following content files for the node indexes:
 
@@ -115,7 +115,7 @@ Below is an automatically generated list of all my blog posts!
 
 ## Removing content
 
-Generally, to remove content, simply delete the relevant file from your `content/post`, `content/publication`, `content/project`, or `content/talk` folder.
+Generally, to remove content, simply delete the relevant file from your `content/blog`, `content/publication`, `content/project`, or `content/talk` folder.
 
 ## View your updated site
 

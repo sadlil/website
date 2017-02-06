@@ -139,7 +139,7 @@ For further details on Hugo's internationalization and multilingual features, re
     [permalinks]
         post = "/:year/:month/:day/:slug"
 
-Where `:slug` defaults to the filename of the post, excluding the file extension. However, slug may be overridden on a per post basis if desired, simply by setting `slug = "my-short-post-title"` in your post preamble.
+Where `:slug` defaults to the filename of the post, excluding the file extension. However, slug may be overridden on a per post basis if desired, simply by setting `slug = "my-short-blog-title"` in your post preamble.
 
 
 ## Upgrading

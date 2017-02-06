@@ -1,0 +1,40 @@
+{{ $post := .blog }}
+{{ $page := .page }}
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  <div class="article-body">
+    <div class="article-body-wrapper">
+      {{ if $post.Params.image }}
+      <div class="article-banner">
+        <a href="{{ $post.Permalink }}">
+          <img src="{{ "/img/" | relURL }}{{ $post.Params.image }}" class="article-banner" itemprop="image">
+        </a>
+      </div>
+      {{else}}
+      <div class="article-banner">
+        <a href="{{ $post.Permalink }}">
+          <img src="/img/banners/default-post.jpg" class="article-banner" itemprop="image">
+        </a>
+      </div>
+      {{end}}
+      <h3 class="article-title" itemprop="name">
+        <a href="{{ $post.Permalink }}" itemprop="url">{{ $post.Title }}</a>
+      </h3>
+      {{ partial "article_metadata" (dict "content" $post "is_list" 1) }}
+      <div class="article-style" itemprop="articleBody">
+        {{ if $post.Params.summary }}
+        <p>{{ printf "%s" $post.Params.summary | markdownify }}</p>
+        {{ else if $post.Truncated }}
+        {{ $post.Summary }}
+        {{ else }}
+        {{ $post.Content }}
+        {{ end }}
+      </div>
+    </div>
+
+    <a href="{{ $post.Permalink }}" class="btn btn-primary btn-outline">
+      {{ i18n "continue_reading" }}
+    </a>
+
+  </div>
+</div>

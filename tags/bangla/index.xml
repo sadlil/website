@@ -11,10 +11,10 @@
     
     <item>
       <title>প্রাইম - বিট সিভ</title>
-      <link>https://sadlil.com/post/prime-bit-seive-bangla/</link>
+      <link>https://sadlil.com/blog/prime-bit-seive-bangla/</link>
       <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/post/prime-bit-seive-bangla/</guid>
+      <guid>https://sadlil.com/blog/prime-bit-seive-bangla/</guid>
       <description>&lt;p&gt;এক ছোট ভাই পোষ্ট দিল যে ১০০০০০০০০০ এর বড় প্রাইম নাম্বার গুলা কিভাবে বের করা যায়। তার জবাবে এই টিউটোরিয়াল টা লেখা । বড়দের জন্য নয়।&lt;/p&gt;
 
 &lt;p&gt;১০০০০০০০০০ প্ররযন্ত প্রাইম নাম্বার আমরা সিভ নামক একটা Algorithm ব্যবহার করে খুব সহজে বের করে ফেলতে পারি। তাই না। sieve মানে ছাকনি। আর Seive of Eratosthenes হল এমন একটা ছাকনি যা কতগুলা নাম্বার থেকে প্রাইম নাম্বার গুলা ছেকে বের করে ফেলে। তার পর-ও যারা সিভ জানে না তারা একটু কষ্ট করে সিভটা শিখে ফেলো।কারন আমরা এখন সিভের
