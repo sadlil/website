@@ -30,18 +30,18 @@ weight = 1
 
 ### Sadlil's
 
-I am currently Migrating my site to HUGO. Original Site will Be available Soon.
+__**I am currently Migrating my site to HUGO. Original Site will Be available Soon.**__
  
 In few word I am - 
  Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read and travel. 
  
-```
-- Knows How to write code in - Go, C, C++, Java, PHP, JavaScript.<br>
-- For Frameworks knows - Laravel 5, Spring 3, Grails. Worked with Hibernets.<br>
-- Knows MySQL, Postgres for SQL Database But deeply in love with Elasticsearch.<br>
-- Deploys things in - Kubernetes - containerized with Docker.<br>
-- Familiar with AWS, Google Cloud, gRPC, Jenkins, GlusterFS, HAProxy etc.<br>
-```
+<pre>
+- Knows How to write code in - <b>Go, C, C++, Java, PHP, JavaScript</b>.
+- For Frameworks knows - <b>Laravel 5, Spring 3, Grails. Worked with Hibernate</b>.
+- Knows <b>MySQL, Postgres</b> for SQL Database But deeply in love with <b>ElasticSearch</b>.
+- Deploys things in - <b>Kubernetes</b> - containerized with <b>Docker</b>.
+- Familiar with <b>AWS, Google Cloud, gRPC, Jenkins, GlusterFS, HAProxy</b> etc.
+</pre>
 
-**Personality:** ENTJ-A (The Commander)<br>
+**Personality:** [ENTJ-A (The Commander)](https://www.16personalities.com/profiles/57a0bb3ee941e)<br>
 **Life Philosophy:** *I don't Believe in Magic*.
