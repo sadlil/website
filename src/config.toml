@@ -165,9 +165,9 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Works"
+  name = "Experience"
   url = "#works"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "Achievements"

@@ -1170,3 +1170,62 @@ div.alert a:hover {
   font-size: 14px;
   color: #999;
 }
+
+.experience-containers{}
+
+.experience-containers h2 {
+  text-decoration: none;
+  margin-top: 0rem !important;
+}
+
+.experience-containers p {
+  margin-bottom: 5px !important;
+}
+
+.experience-containers p a:hover {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.experience-containers .exp-work-duration {
+  margin-top: 0rem !important;
+  font-size: 13px;
+  color: #122b40;
+}
+
+.experience-containers .exp-work-duration .exp-work-duration-date{
+  margin-left: 8px;
+  margin-right: 6%;
+}
+
+.experience-containers .exp-work-duration .exp-work-type{
+  margin-left: 8px;
+}
+
+.experience-containers .exp-work-desc {
+  margin-top: 10px;
+  font-size: 13px;
+  color: darkslategrey;
+}
+
+.experience-containers .exp-work-worked {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000;
+}
+
+.experience-containers .exp-work-tech {
+  margin-top: 5px;
+}
+
+.experience-containers .exp-work-tech span{
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0,0,0,.85);
+  border: 0;
+  border-radius: 8px;
+  vertical-align: baseline;
+  background-color: #e6e9ec;
+}
