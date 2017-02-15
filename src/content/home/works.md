@@ -22,7 +22,7 @@ detailed_list = true
     <i class="fa fa-tasks" aria-hidden="true"></i>
     <span class="exp-work-type">Full Time</span>
 </div>
-<div class=exp-work-tech>
+<div class="exp-work-tech">
     <span>Go</span>
     <span>Java</span>
     <span>Kubernetes</span>
@@ -42,7 +42,7 @@ One integrated platform for software development aspects.
  - Implemented multiteanant auth scheme in core services <br>
  - Worked to build a multiplatform artifact repository for docker, maven, npm etc <br>
  - Contributed and worked with many open source projects including Kubernetes, Jenkins, Docker, GlusterFS, Phabricator <br>
-<div>
+</div>
 
 ---
 > ## **Software Engineer**
@@ -60,7 +60,7 @@ One integrated platform for software development aspects.
     <span>gRPC</span>
     <span>ElasticSearch</span>
     <span>PgSql</span>
-<div>
+</div>
 <div class="exp-work-desc">
 Subsidiary company of AppsCode Inc. USA. Previously known as [The TigerWorks Pvt. Ltd](https://thetigerworks.com). in Bangladesh. 
 Company Works with a goal to make smother developing, testing, deploying and monitoring containerized application. 
@@ -73,7 +73,7 @@ One integrated platform for software development aspects.
  - Implemented multiteanant auth scheme in core services <br>
  - Worked to build a multiplatform artifact repository for docker, maven, npm etc <br>
  - Contributed and worked with many open source projects including Kubernetes, Jenkins, Docker, GlusterFS, Phabricator <br>
-<div>
+</div>
 
 ----
 > ## **Software Engineer**
@@ -104,6 +104,6 @@ One integrated platform for software development aspects.
  - Implemented multiteanant auth scheme in core services <br>
  - Worked to build a multiplatform artifact repository for docker, maven, npm etc <br>
  - Contributed and worked with many open source projects including Kubernetes, Jenkins, Docker, GlusterFS, Phabricator <br>
-<div>
+</div>
 
 ----

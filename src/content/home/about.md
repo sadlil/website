@@ -35,7 +35,7 @@ __**I am currently Migrating my site to HUGO. Original Site will Be available So
 In few word I am - 
  Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read and travel. 
  
-<pre>
+<pre style="font-size: 15px; height: 150px; line-height: 25px; border-radius: 15px; padding-left: 10px;">
 - Knows How to write code in - <b>Go, C, C++, Java, PHP, JavaScript</b>.
 - For Frameworks knows - <b>Laravel 5, Spring 3, Grails. Worked with Hibernate</b>.
 - Knows <b>MySQL, Postgres</b> for SQL Database But deeply in love with <b>ElasticSearch</b>.
@@ -43,5 +43,10 @@ In few word I am -
 - Familiar with <b>AWS, Google Cloud, gRPC, Jenkins, GlusterFS, HAProxy</b> etc.
 </pre>
 
-**Personality:** [ENTJ-A (The Commander)](https://www.16personalities.com/profiles/57a0bb3ee941e)<br>
-**Life Philosophy:** *I don't Believe in Magic*.
+#### Personality
+[ENTJ-A (The Commander)](https://www.16personalities.com/profiles/57a0bb3ee941e)
+<hr>
+
+#### Life Philosophy
+*I don't Believe in Magic*.
+<hr>
