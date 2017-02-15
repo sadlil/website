@@ -1229,3 +1229,14 @@ div.alert a:hover {
   vertical-align: baseline;
   background-color: #e6e9ec;
 }
+
+.skills-tech span{
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0,0,0,.85);
+  border: 0;
+  border-radius: 8px;
+  vertical-align: baseline;
+  background-color: #e6e9ec;
+}
