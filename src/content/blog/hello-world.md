@@ -1,7 +1,7 @@
 +++
 date = "2017-02-02T11:27:00"
 draft = false
-image = "banners/blog.png"
+image = "banners/helloworld.jpg"
 tags = ["hello world"]
 title = "Hello World"
 math = true
