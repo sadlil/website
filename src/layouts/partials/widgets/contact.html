@@ -9,8 +9,6 @@
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
   <div class="col-xs-12 col-md-8">
-    {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
-
     <ul class="fa-ul">
 
       {{ with $.Site.Params.email }}
@@ -73,6 +71,6 @@
       {{ end }}
 
     </ul>
-
+    {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
 </div>

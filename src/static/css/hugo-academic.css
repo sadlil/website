@@ -1240,3 +1240,27 @@ div.alert a:hover {
   vertical-align: baseline;
   background-color: #e6e9ec;
 }
+
+#contact-profile {
+  text-align: center;
+}
+
+#contact-profile ul.social-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+#contact-profile .social-icon li {
+  margin-right: 10px;
+}
+
+#contact-profile .social-icon li:last-of-type {
+  margin-right: 0;
+}
+
+#contact-profile .social-icon li:hover {
+  transform: scale(1.2)
+}
