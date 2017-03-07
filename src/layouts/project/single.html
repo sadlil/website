@@ -14,7 +14,7 @@
     {{ end }}
 
     <div class="article-style" itemprop="articleBody">
-      {{ .Content }}
+      {{ .Content | markdownify }}
     </div>
   </article>
 

@@ -1241,6 +1241,17 @@ div.alert a:hover {
   background-color: #e6e9ec;
 }
 
+.skills-tech-project span{
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0,0,0,.85);
+  border: 0;
+  border-radius: 8px;
+  vertical-align: baseline;
+  background-color: #e6e9ec;
+}
+
 #contact-profile {
   text-align: center;
 }

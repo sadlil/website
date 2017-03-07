@@ -78,7 +78,7 @@ AppsCode Ltd was Previously known as The Tigerworks Pvt. Ltd. Working with the s
 </div>
 <div class=exp-work-tech>
     <span>Java</span>
-    <span>Groovey</span>
+    <span>Groovy</span>
     <span>Grails</span>
     <span>MySQL</span>
     <span>Javascript</span>

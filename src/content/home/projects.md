@@ -36,8 +36,8 @@ count = 500
   tag = ".personal"
 
 [[filter]]
-  name = "Under Grad"
-  tag = ".undergrad"
+  name = "Academic"
+  tag = ".academic"
 
 +++
 
