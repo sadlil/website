@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prime on Sadlil&#39;s</title>
+    <link>https://sadlil.com/tags/prime/index.xml</link>
+    <description>Recent content in Prime on Sadlil&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Kazi Sadlil Rhythom</copyright>
+    <atom:link href="/tags/prime/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>প্রাইম - বিট সিভ</title>
+      <link>https://sadlil.com/blog/prime-bit-seive-bangla/</link>
+      <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/blog/prime-bit-seive-bangla/</guid>
+      <description>&lt;p&gt;এক ছোট ভাই পোষ্ট দিল যে ১০০০০০০০০০ এর বড় প্রাইম নাম্বার গুলা কিভাবে বের করা যায়। তার জবাবে এই টিউটোরিয়াল টা লেখা । বড়দের জন্য নয়।&lt;/p&gt;
+
+&lt;p&gt;১০০০০০০০০০ প্ররযন্ত প্রাইম নাম্বার আমরা সিভ নামক একটা Algorithm ব্যবহার করে খুব সহজে বের করে ফেলতে পারি। তাই না। sieve মানে ছাকনি। আর Seive of Eratosthenes হল এমন একটা ছাকনি যা কতগুলা নাম্বার থেকে প্রাইম নাম্বার গুলা ছেকে বের করে ফেলে। তার পর-ও যারা সিভ জানে না তারা একটু কষ্ট করে সিভটা শিখে ফেলো।কারন আমরা এখন সিভের
+খালাত ভাই- মামত ভাই Algorithm শিখব।&lt;/p&gt;
+
+&lt;p&gt;Links for Seive algorithm :&lt;br&gt;
+    1.  &lt;a href=&#34;http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes&#34; target=&#34;_blank&#34;&gt;Wikipedia&lt;/a&gt;&lt;br&gt;
+    2.  &lt;a href=&#34;http://www.programminglogic.com/the-sieve-of-eratosthenes-implemented-in-c/&#34; target=&#34;_blank&#34;&gt;Programming Logic&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;সিভের জন্য আমার অনেক ফেভারিট ছবিঃ
+&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif&#34; alt=&#34;Seive&#34; data-featherlight=&#34;http://upload.wikimedia.org/wikipedia/commons/b/b9/Sieve_of_Eratosthenes_animation.gif&#34; style=&#34;cursor:zoom-in;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;মামাত ভাই Algorithm শিখার আগে সিভ এর কিছু জিনিস দেখা দরকার। সিভ একটা পতাকা (Flag) Array ব্যবহার করে, যাতে যদি 1 থাকে (কোড ভেদে ০ থাকতে পারে। তবে এখানে আমরা ধরে নিচ্ছি যে ১ থাকলে প্রাইম, ০ থাকলে প্রাইম না) তাহলে সংখ্যাটা প্রাইম। একটু সহজ করে বলছি, Array যদি S হয় তাহলে S[1]==0 মানে হল ১ প্রাইম না। আবার S[2]==1 মানে ২ প্রাইম। তারমানে Array S এর ইনডেক্স থেকে আমরা কোন সংখ্যা প্রাইম নাকি প্রাইম না তা বের করতে পারি। এখন সমস্যা টা হল সিভ ব্যবহার করতে চাইলে আমাদের অবশ্যই একটা Array দরকার। কিন্তু C তে ১০০০০০০০০০ এর বড় সাইজের Array কই পাব। তাহলে এখন আমরা করব কি?? প্রাইম কি তাহলে বের করতে পারব না। কেন পারব না, আমরা অনেক স্মার্ট- আমরা সব পারি।&lt;/p&gt;
+
+&lt;p&gt;তো স্মার্ট মানুষেরা প্রাইম বের করার জন্য কিছু পদ্ধতি আবিষ্কার করল&amp;ndash;&lt;br&gt;
+        ১। বিট সিভ &amp;ndash; সিভের মামাত ভাই,&lt;br&gt;
+        ২। সেগমেন্ট সিভ &amp;ndash;সিভের সুন্দরি খালাত বোন।&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;বিট সিভঃ
+সিভ করতে গিয়া অলরেডি আমরা একটা আনস্মার্ট কাজ করে ফেলছি। কি কাজ। কাজটা হল &amp;ndash; সিভের জন্য আমরা যে Array টা নিছি তা। আসলে Array টা না। Array-র টাইপ টা। আমরা সবাই অলমোস্ট S Array টা নিছি ইন্টেজার,তাই না? এখন ইন্টেজার নেয়ায় কি প্রবলেম হইছে আস দেখি &amp;ndash;
+একটা ইন্টেজার নাম্বার 16(আসলেই কি তাই) টা বিট দ্বারা তৈরী। তো ইন্টেজার ম্যমরি তে ১ এবং ০ কিভাবে রাখে&lt;br&gt;
+1 == 0000000000000001&lt;br&gt;
+0 == 0000000000000000&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;তাহলে স্মার্ট মানুষেরা এতক্ষনে বুঝে ফেলছে আমি কি বলতে চাই। আমরা একটা ইন্টেজার ফ্লাগ হিসেবে ব্যবহার করলে ওই ইন্টেজারের ১৫ টা বিট নষ্ট করতেছি তাই না। কারন আমরা ব্যবহার করতেছি একদম লাস্ট বিটটা। এখন আমরা যদি বাকি ১৫ টা বিট ব্যবহার করতে পারতাম তাহলে আমাদের প্রাইমের রেঞ্জ হইত ১৬*১০০০০০০০০০০ == ১৬০০০০০০০০০০। অনেক বড় তাই না। Long ব্যবহার করে আমরা অলমোস্ট ৩২০০০০০০০০০০ পর্যন্ত প্রাইম ব্যবহার করতে পারি।&lt;/p&gt;
+
+&lt;p&gt;এখন বিট সিভ-এ আমরা করবটা কি? একদম সোজা সিভ-ই চালাব কিন্তু একটু বুদ্ধিমান ভাবে। আগে S Array-এর ইনডেক্স আমরা ব্যবহার করতাম এইবার করব অন্য রকম। কি রকম - S Array-এর ০ ইনডেক্স এর ১ম বিট Represent করবে ১ কে, ০ ইনডেক্স এর ২য় বিট Represent করবে দুই কে। এইভাবে ৯৯৯৯৯৯৯৯৯ ইনডেক্স এর ১৬ম বিট Represent করবে ১৬০০০০০০০০০০ কে। সহজ না।&lt;/p&gt;
+
+&lt;p&gt;এখন এই কাজটা কেমনে করব। (অনেক কিছু-ই আছে আমি বুঝি কিন্তু এখন-ও জানি না যে ঐ কাজ টা কেমনে করব।) তাই প্রথমে-ই কিছু বিট-অপারেশন শিখা জরুরি। বিট And, Or এবং Shift. এই তিনটা পারলে-ই আমাদের হবে।&lt;/p&gt;
+
+&lt;p&gt;কেউ যদি না পার তাহলে এই লিঙ্কটা দেখতে পার আশা করি ভাল ভাবে বুঝে যাবেঃ &lt;a href=&#34;http://binaryrongo.wordpress.com/2013/07/27/bitwise-operator/&#34; target=&#34;_blank&#34;&gt;http://binaryrongo.wordpress.com/2013/07/27/bitwise-operator/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;এখন আমাদের কে বিট সিভ করতে হবে। সিভের কন্সেপ্ট মনে আছে?? কি করতাম আমরা &amp;ndash; ২ থেকে ঘুরা শুরু করতাম দেখতাম ঐটা প্রাইম নাকি মানে চেক করতাম যে S এর ঐ পজিশনে ১ আছে নাকি। থাকলে ঐ সংখার সকল মাল্টিপ্লায়ার গুলার ইনডেক্স ০ করে দিতাম। আর প্রাইম না হলে মানে ইনডেক্স ০ হলে পরের নাম্বারে চলে যেতাম। এখানে-ও তাই করব জাস্ট S এর ইনডেক্স এর বদলে এইবার S এর ইনডেক্স এর বিট ব্যবহার করব।&lt;/p&gt;
+
+&lt;p&gt;এই কাজের জন্য আমরা দুইটা ফাংশন লিখব। int check(long n, long pos) যা আমাদের n ইন্টেজারের pos তম বিটটা চেক করে দিবে যে এইটা ১ নাকি ০। এবং long set(long n, long pos) n এর pos তম বিটটা ১ করে দিবে। বাকিটা ত সিভের মতই।&lt;/p&gt;
+
+&lt;p&gt;এতক্ষন যা বললাম তার একটা ইমপ্লিমেন্টেশনঃ&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;int setBit( int n, int position )
+{
+    n = n | ( 1 &amp;lt;&amp;lt; position );
+    return n;
+}
+ 
+ 
+bool checkBit( int n, int position )
+{
+    return n &amp;amp; ( 1 &amp;lt;&amp;lt; position );
+}
+ 
+ 
+#define MAX 10001
+ 
+int prime[MAX];
+ 
+void primeGenerator( int n )
+{
+    int x = sqrt( n );
+    prime[0] = setBit( prime[0], 0 );
+    prime[0] = setBit( prime[0], 1 );
+    for( int i = 4; i &amp;lt;= x; i += 2 )
+        prime[i/32] = setBit( prime[i/32], i%32 );
+    for( int i = 3; i &amp;lt;= x; i += 2 ) 
+    {
+        if( !checkBit( prime[i/32], i%32 ) 
+        {
+            for( int j = i+i; j &amp;lt;= n; j += i )
+                prime[j/32] = setBit( prime[j/32], j%32 );
+        }
+    }
+ 
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;এইটা হল সিভের খালাত ভাই।&lt;/p&gt;
+
+&lt;p&gt;এখন আমার পার্সোনাল ফেভারিট সিভের সুন্দরি খালাত বোন। সেগমেন্ট সিভ। এইটা একটা ইস্পিসাল কাইন্ড অব সিভ। যা একটা নির্দিস্ট রেঞ্জের মধ্যে কাজ করে। ধর A এবং B দুইটা ইন্টিজার ভ্যলু। সাপোজ A=100000 এবং B=255555 যাদের মধ্যে একটা নির্দিস্ট দুরত্ব থাকবে। সেগমেন্ট সিভ এই দুই দুরুত্বের মাঝে কাজ করে এদের মধ্যে যত প্রাইম নাম্বার আছে তা বের করে দিবে।এইটা নিয়া পরে আরেকদিন লেখব নে।&lt;/p&gt;
+
+&lt;p&gt;আপাতত বিট সিভ নিয়া গেজাও। প্রবলেম সলভ কর। কোন সমস্যায় পরলে আমাদের কাছে জানাইতে ভুইল না।&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
