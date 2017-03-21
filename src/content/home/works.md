@@ -94,7 +94,7 @@ to go beyond the goals.
  </div>
 
 ----
-> ## **Team Lead**
+> ## **Lead Consultant**
 [**XOR Studio, Bangladesh.**](https://appscode.com)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>
