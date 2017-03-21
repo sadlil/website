@@ -15,16 +15,24 @@ weight = 5
 - [Resolved Reverse DNS records for named headless services](https://github.com/kubernetes/dns/pull/25)<br>
 - [Use updated DNS in cluster](https://github.com/kubernetes/kubernetes/pull/39925)
 <hr>
-**Built `Voyager`**<br>
-- [Secure Kubernetes Ingress Controller by AppsCode](https://github.com/appscode/voyager)
+**Building `Voyager` - Secure Kubernetes Ingress Controller by AppsCode**<br>
+- [Github Link](https://github.com/appscode/voyager)
 <hr>
 **Became Collaborator of go-gearman**<br>
 - [Thread safe Job Creating](https://github.com/mikespook/gearman-go/pull/75)<br>
 
 ---
+### 2016
+> **Participate in my 5th ICPC Dhaka Regional**<br>
+
+---
 ### 2015
 > **Became Runner UP, IEEE RUET Inter University Programming Contest**<br>
 - Team Name: MBSTU_Khajna_Dibo_Na<br>
+<hr>
+**Started Learning GO**
+<hr>
+**Started Open Sourcing**
 
 ---
 ### 2014
@@ -37,10 +45,19 @@ weight = 5
 <hr>
 **7th Position - International Contest on Programming and System Development (ICPSD)**<br>
 - Team Name: MBSTU_Khajna_Dibo_Na<br>
-<hr>
+
 ---
+
 ### 2013
 > **Champion, MBSTU Intra University programming Contest 2013**<br>
+- Team Name: MBSTU_Ecilis<br>
+<hr>
+**27th Position, BUET Inter University programming Contest 2013**<br>
+- Team Name: MBSTU_Ecilis<br>
+
+---
+### 2012
+> **Runner UP, MBSTU Intra University programming Contest 2012**<br>
 - Team Name: MBSTU_Ecilis<br>
 
 ---
