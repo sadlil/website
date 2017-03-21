@@ -3,10 +3,10 @@
 date = "2017-03-07"
 
 # Project title.
-title = "AutoBill"
+title = "Voyager"
 
 # Project summary to display on homepage.
-summary = "An automated billing software built in Bit Mascot. Manages automated invoice and Recurring Billing"
+summary = "An automated billing software built in Bit Mascot"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "autobill_logo.png"
@@ -19,6 +19,8 @@ tags = ["professional"]
 
 # Does the project detail page use math formatting?
 math = false
+
+draft = true
 
 +++
 <div class="row">

@@ -3,16 +3,16 @@
 date = "2017-03-07"
 
 # Project title.
-title = "AutoBill"
+title = "WebCommander"
 
 # Project summary to display on homepage.
-summary = "An automated billing software built in Bit Mascot. Manages automated invoice and Recurring Billing"
+summary = "WebCommander has everything you need to deploy and run a successful online store. Much more than an eCommerce CMS"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "autobill_logo.png"
+image_preview = "commander.png"
 
 # Optional image to display on project detail page (relative to `static/img/` folder).
-image = "autobill_logo.png"
+image = "commander.png"
 
 # Tags: can be used for filtering projects.
 tags = ["professional"]
@@ -33,25 +33,14 @@ math = false
     </div>
 </div>
 <div class="col-xs-12 col-md-5">
-    <a href="http://www.autobill.com/" target="_blank">
+    <a href="http://www.webcommander.com/" target="_blank">
         <i class="fa fa-external-link-square big-icon"></i>
     </a>
 </div>
 </div>
 
 <br>
-An automated billing software to manage clients Billing. Manages automated 
-invoice and Recurring Billing. AutoBill delivers extended functionality enabling 
-any business, organisation or association to engage in online customer 
-interaction much more efficiently. With a rich feature set including self-service 
-customer portal, electronic invoicing and one-click pay now features, AutoBill 
-makes it quick and easy for customers to pay – ensuring regular cash flow that is the 
-lifeblood of any business.<br>
-
-In addition, with the demand for complex recurring billing and automatic payment 
-processes greater than ever before, AutoBill delivers powerful features to do 
-all the heavy lifting for you. With AutoBill, spend more time selling and less 
-time processing invoices and payments.
+WebCommander has everything you need to deploy and run a successful online store. Much more than an eCommerce CMS, WebCommander includes Drag & Drop store design, beautiful templates, powerful eCommerce tools, built in SEO, a blog, comprehensive statistical & administration tools, mCommerce, social networking integration, discounts, coupons, wishlists and much more. WebCommander gives you the power and freedom needed to create and manage an online store successfully.
 
 **Roles and Responsibilities:**
 
