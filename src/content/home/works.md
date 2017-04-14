@@ -95,7 +95,7 @@ to go beyond the goals.
 
 ----
 > ## **Lead Consultant**
-[**XOR Studio, Bangladesh.**](https://appscode.com)<br>
+[**X-OR Studio, Bangladesh.**](https://appscode.com)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>
     <span class="exp-work-duration-date">Apr 2014 – Feb 2016</span>
