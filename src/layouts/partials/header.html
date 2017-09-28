@@ -48,6 +48,6 @@
   {{ partial "head_custom" . }}
 
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-
+  {% seo %}
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
