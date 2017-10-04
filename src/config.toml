@@ -8,7 +8,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 disqusShortname = "sadlil-com"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-107529346-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -74,7 +74,7 @@ defaultContentLanguageInSubdir = false
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
   highlight_languages = []
-  # highlight_style = "github"
+  highlight_style = "github"
   # highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
