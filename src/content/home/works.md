@@ -13,12 +13,48 @@ weight = 2
 detailed_list = true
 
 +++
-
-> ## **Software Engineer**
-[**AppsCode Ltd, Bangladesh.**](https://appscode.com)<br>
+> ## **Software Engineer, Backend**
+[**Grab, Singapore.**](https://grab.com)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>
-    <span class="exp-work-duration-date">Nov 2016 – Present</span>
+    <span class="exp-work-duration-date">Dec 2017 – Present</span>
+    <i class="fa fa-tasks" aria-hidden="true"></i>
+    <span class="exp-work-type">Full Time</span>
+</div>
+<div class="exp-work-tech">
+    <span>Go</span>
+    <span>gRPC</span>
+    <span>MySQL</span>
+    <span>PgSql</span>
+    <span>Presto</span>
+<div>
+<div class="exp-work-desc">
+Grab is more than just the leading ride-hailing and mobile payments app in Southeast Asia.
+We use data and technology to improve everything from transportation to payments and logistics across a
+region of more than 620 million people. Working with governments, drivers, passengers, and charities,
+we aim to unlock the true potential of the region by solving problems that hinder progress.<br><br>
+Grab began as a taxi-hailing app in 2012, but has extended its product platform to
+include private car services (GrabCar & GrabShare), motorcycle taxis (GrabBike), social carpooling (GrabHitch)
+and last mile delivery (GrabExpress). We are focused on pioneering new commuting alternatives for
+drivers and passengers with an emphasis on speed, safety, and reliability. Currently we offer services
+in Singapore, Indonesia, Philippines, Malaysia, Thailand and Vietnam; however, we also have R&D offices
+in Bangalore, Beijing, & Seattle.</div>
+<div class=exp-work-worked>
+ - Work with PMs to collaborate with Incentives schemes and Backend designs <br>
+ - Work closely with Data Scientists to find the best solution for Millions of Drivers <br>
+ - Design and Implement Backend services for Driver incentives <br>
+ - Supports Grabs Millions of drivers request <br>
+ - Works on API Layer to support large scale system <br>
+ - Support Fixing production BUGS <br>
+</div>
+
+----
+
+> ## **Software Engineer**
+[**AppsCode Ltd, Bangladesh. (Former The TigerWorks Pvt. Ltd)**](https://appscode.com)<br>
+<div class="exp-work-duration">
+    <i class="fa fa-calendar" aria-hidden="true"></i>
+    <span class="exp-work-duration-date">Apr 2015 – Nov 2017</span>
     <i class="fa fa-tasks" aria-hidden="true"></i>
     <span class="exp-work-type">Full Time</span>
 </div>
@@ -42,29 +78,6 @@ One integrated platform for software development aspects.
  - Implemented multiteanant auth scheme in core services <br>
  - Worked to build a multiplatform artifact repository for docker, maven, npm etc <br>
  - Contributed and worked with many open source projects including Kubernetes, Jenkins, Docker, GlusterFS, Phabricator <br>
-</div>
-
----
-> ## **Software Engineer**
-[**The TigerWorks Pvt. Ltd., Bangladesh.**](https://thetigerworks.com)<br>
-<div class="exp-work-duration">
-    <i class="fa fa-calendar" aria-hidden="true"></i>
-    <span class="exp-work-duration-date">Apr 2015 – Oct 2016</span>
-    <i class="fa fa-tasks" aria-hidden="true"></i>
-    <span class="exp-work-type">Full Time</span>
-</div>
-<div class=exp-work-tech>
-    <span>Go</span>
-    <span>Java</span>
-    <span>Kubernetes</span>
-    <span>gRPC</span>
-    <span>ElasticSearch</span>
-    <span>PgSql</span>
-</div>
-<div class="exp-work-desc">
-AppsCode Ltd was Previously known as The Tigerworks Pvt. Ltd. Working with the same goal AppsCode Have.
-</div>
-<div class=exp-work-worked>
 </div>
 
 ----

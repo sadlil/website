@@ -11,6 +11,10 @@ weight = 5
 
 +++
 ### 2017
+> **Joined Grab as a Software Engineer**<br>
+<hr>
+> **Moved to Singapore**<br>
+<hr>
 > **Contributed In kubernetes/helm**<br>
 - [Expose tiller server metrics to prometheus](https://github.com/kubernetes/helm/pull/2171)<br>
 <hr>

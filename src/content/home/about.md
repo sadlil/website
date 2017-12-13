@@ -50,3 +50,19 @@ In few word I am -
 #### Life Philosophy
 *I don't Believe in Magic*.
 <hr>
+
+<div>
+    <div style="">
+    From<br>
+      &nbsp<b>Bangladesh</b>
+    </div>
+    <hr>
+    <div style="">
+    Currently Living In<br>
+      &nbsp<b>Singapore</b>
+    </div>
+    <br>
+</div>
+
+<br>
+<hr>

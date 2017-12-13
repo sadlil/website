@@ -19,12 +19,12 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Kazi Sadlil Rhythom"
-  role = "Software Engineer"
-  organization = "AppsCode Ltd."
+  role = "Software Engineer, Backend"
+  organization = "Grab, Singapore"
   avatar = "sadlil.jpg"
   email = "sadlil.rhythm@gmail.com"
-  address = "Road 10, Sector 10, Uttara, Dhaka, Bangladesh."
-  phone = "+88 01714771513"
+  address = "Singapore"
+  phone = "+65 8450 1569"
   skype = "sadlil.rhythm"
   telegram = "sadlil"
 
