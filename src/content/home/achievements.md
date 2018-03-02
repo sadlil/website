@@ -10,6 +10,11 @@ widget = "achievements"
 weight = 5
 
 +++
+### 2018
+> **Learned How to ride a Bicycle**<br>
+
+---
+
 ### 2017
 > **Joined Grab as a Software Engineer**<br>
 <hr>

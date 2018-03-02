@@ -18,9 +18,8 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/home/about/</guid>
-      <description>Sadlil&amp;rsquo;s I am currently Migrating my site to HUGO. Original Site will Be available Soon.
-In few word I am - Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read and travel.
-- Knows How to write code in - Go, C, C++, Java, PHP, JavaScript. - For Frameworks knows - Laravel 5, Spring 3, Grails. Worked with Hibernate.</description>
+      <description>In few word I am - Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read, travel and took photographs.  
+I have been writing full time codes in Golang from 2015. Sometimes also use other languages like C, C++, Java, PHP and Javascript. Instead of HTTP REST i like to work with gRPC Now. I Try to design my APIs in gRPC now where i can.</description>
     </item>
     
     <item>
@@ -39,7 +38,7 @@ In few word I am - Full time Software Engineer, Hobbyist Photographer. Loves to 
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/home/skills/</guid>
-      <description>Go C &amp; C++ Java Python  PHP JavaScript Angular 2 Android  Grails Laravel 5 Spring 3 NodeJS  ElasticSearch MySQL/MariaDB PgSQL MongoDB  Docker Kubernetes Vagrant rkt  GCP AWS Azure DO Linode Vultr  Maven Gradel gulp Bazel git  gRPC Protocol Buffer 3 Jenkins GlusterFS HAProxy InfluxDB   </description>
+      <description>Go C &amp; C++ Java Python  PHP JavaScript Angular 2  Grails Laravel 5 Spring 3  ElasticSearch MySQL/MariaDB PgSQL Presto  Docker Kubernetes Vagrant rkt  GCP AWS Azure DO Linode Vultr  Maven Gradel gulp Bazel git  gRPC Protocol Buffer 3 Jenkins GlusterFS HAProxy InfluxDB   </description>
     </item>
     
     <item>
@@ -75,16 +74,15 @@ In few word I am - Full time Software Engineer, Hobbyist Photographer. Loves to 
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/home/achievements/</guid>
-      <description>2017  Joined Grab as a Software Engineer
+      <description>2018  Learned How to ride a Bicycle
+ 2017  Joined Grab as a Software Engineer
  Moved to Singapore
  Contributed In kubernetes/helm
 - Expose tiller server metrics to prometheus
  Contributed in Kubernetes
 - Resolved Reverse DNS records for named headless services
 - Use updated DNS in cluster  Building Voyager - Secure Kubernetes Ingress Controller by AppsCode
-- Github Link  Became Collaborator of go-gearman
-- Thread safe Job Creating
- 2016  Participated in my 5th ICPC Dhaka Regional</description>
+- Github Link  Became Collaborator of go-gearman</description>
     </item>
     
     <item>

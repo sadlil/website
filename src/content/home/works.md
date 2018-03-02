@@ -40,11 +40,12 @@ drivers and passengers with an emphasis on speed, safety, and reliability. Curre
 in Singapore, Indonesia, Philippines, Malaysia, Thailand and Vietnam; however, we also have R&D offices
 in Bangalore, Beijing, & Seattle.</div>
 <div class=exp-work-worked>
- - Work with PMs to collaborate with Incentives schemes and Backend designs <br>
- - Work closely with Data Scientists to find the best solution for Millions of Drivers <br>
- - Design and Implement Backend services for Driver incentives <br>
- - Supports Grabs Millions of drivers request <br>
- - Works on API Layer to support large scale system <br>
+ - Work with teams to Scale core Backend services <br>
+ - Work with PMs to collaborate with Business requirements and design software systems to support those requirements <br>
+ - Work closely with Data Scientists to support huge user loads and identify goals <br>
+ - Design and Implement Backend services for Core teams <br>
+ - Support and scale systems to handle millions of request <br>
+ - Work on API Layer design to support large scale system <br>
  - Support Fixing production BUGS <br>
 </div>
 
@@ -74,7 +75,8 @@ One integrated platform for software development aspects.
 <div class=exp-work-worked>
  - Joined the company as #3 employee <br>
  - Leading multiple teams to design and implement core features <br>
- - Design and Implemented gRPC based API server from scratch <br> 
+ - Design and Implemented gRPC based API server from scratch <br>
+ - Worked to build with kubernetes controllers tools to utilize kubernetes services <br>
  - Implemented multi tenant auth scheme in core services <br>
  - Worked to build a multi platform artifact repository for docker, maven, npm etc <br>
  - Contributed and worked with many open source projects including Kubernetes, Jenkins, Docker, GlusterFS, Phabricator <br>

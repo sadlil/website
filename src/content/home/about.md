@@ -26,22 +26,37 @@ weight = 1
   year = 2014
  
 +++
+<br>
 
+In few word I am - <div style="margin-left:2%">
+```
+Full time Software Engineer, Hobbyist Photographer. Loves to solves problems.
+Egar to learn new Technologies and plays with them.
+Loves to read, travel and took photographs.
+```
+</div>
 
-### Sadlil's
+I have been writing full time codes in __**Golang**__ from 2015. Sometimes also
+use other languages like __**C, C++, Java, PHP and Javascript**__.
+Instead of HTTP REST i like to work with **gRPC** Now. I Try to design my APIs
+in gRPC now where i can. Its robust performance and scalability amuses me.
+Years ago i worked with **Grails, Laravel 5 and Spring 3** frameworks.
+Not in touch with these for a long time though, because i work with
+awesome Go now. :)
 
-__**I am currently Migrating my site to HUGO. Original Site will Be available Soon.**__
- 
-In few word I am - 
- Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read and travel. 
- 
-<pre style="font-size: 15px; height: 150px; line-height: 25px; border-radius: 15px; padding-left: 10px;">
-- Knows How to write code in - <b>Go, C, C++, Java, PHP, JavaScript</b>.
-- For Frameworks knows - <b>Laravel 5, Spring 3, Grails. Worked with Hibernate</b>.
-- Knows <b>MySQL, Postgres</b> for SQL Database But deeply in love with <b>ElasticSearch</b>.
-- Deploys things in - <b>Kubernetes</b> - containerized with <b>Docker</b>.
-- Familiar with <b>AWS, Google Cloud, gRPC, Jenkins, GlusterFS, HAProxy</b> etc.
-</pre>
+I have used **MySQL/MariaDB**, **Postgres**; But really really in love with
+**ElasticSearch**. I also learned about **Presto**, It is fun.<br>
+
+I love to deploy things in **Kubernetes** by containerizing them with **docker**.
+Monitoring them with **Prometheus and Grafana**. Loadbalance with **HAProxy**.
+I Love to play with Kubernetes, Provision kube clusters in **aws, google cloud**.
+I believe in testing, I try my best cover things under **unit tests, e2e tests and
+integration tests**. I like to use CI/CD pipeline with **Jenkins**.
+I like to have Scaling and Performance in mind. Love **HAProxy** to do some heavy lifting
+for me.
+
+I also do love **Open Sourcing**. I am contributor to **Kubernetes, gRPC** and some other
+Open Source projects. I would still love to contribute more in the community.
 
 #### Personality
 [ENTJ-A (The Commander)](https://www.16personalities.com/profiles/57a0bb3ee941e)
@@ -49,20 +64,4 @@ In few word I am -
 
 #### Life Philosophy
 *I don't Believe in Magic*.
-<hr>
-
-<div>
-    <div style="">
-    From<br>
-      &nbsp<b>Bangladesh</b>
-    </div>
-    <hr>
-    <div style="">
-    Currently Living In<br>
-      &nbsp<b>Singapore</b>
-    </div>
-    <br>
-</div>
-
-<br>
 <hr>

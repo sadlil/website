@@ -23,17 +23,15 @@ weight = 2
     <span>PHP</span> 
     <span>JavaScript</span>
     <span>Angular 2</span>
-    <span>Android</span>
     <hr>
     <span>Grails</span> 
     <span>Laravel 5</span>
     <span>Spring 3</span>
-    <span>NodeJS</span>
     <hr>
     <span>ElasticSearch</span> 
     <span>MySQL/MariaDB</span>
     <span>PgSQL</span>
-    <span>MongoDB</span>
+    <span>Presto</span>
     <hr>
     <span>Docker</span> 
     <span>Kubernetes</span>
