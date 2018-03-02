@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.18.1" />
+  <meta name="generator" content="Hugo 0.37" />
   <meta name="author" content="Kazi Sadlil Rhythom">
   <meta name="description" content="Software Engineer, Backend">
 
@@ -278,6 +278,12 @@
 
 </div>
 
+
+    
+    <span class="likebtn-wrapper" data-theme="roundthumb" data-ef_voting="push" data-show_like_label="false" data-voting_cancelable="false" data-voting_both="true"></span>
+    <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+    
+
     <div class="article-style" itemprop="articleBody">
       <p>এক ছোট ভাই পোষ্ট দিল যে ১০০০০০০০০০ এর বড় প্রাইম নাম্বার গুলা কিভাবে বের করা যায়। তার জবাবে এই টিউটোরিয়াল টা লেখা । বড়দের জন্য নয়।</p>
 
@@ -317,41 +323,40 @@
 
 <p>এতক্ষন যা বললাম তার একটা ইমপ্লিমেন্টেশনঃ</p>
 
-<pre><code class="language-c++">int setBit( int n, int position )
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#339;font-weight:bold">int</span> <span style="color:#06b;font-weight:bold">setBit</span>( <span style="color:#339;font-weight:bold">int</span> n, <span style="color:#339;font-weight:bold">int</span> position )
 {
-    n = n | ( 1 &lt;&lt; position );
-    return n;
+    n <span style="color:#333">=</span> n <span style="color:#333">|</span> ( <span style="color:#00d;font-weight:bold">1</span> <span style="color:#333">&lt;&lt;</span> position );
+    <span style="color:#080;font-weight:bold">return</span> n;
 }
- 
- 
-bool checkBit( int n, int position )
+
+
+<span style="color:#339;font-weight:bold">bool</span> <span style="color:#06b;font-weight:bold">checkBit</span>( <span style="color:#339;font-weight:bold">int</span> n, <span style="color:#339;font-weight:bold">int</span> position )
 {
-    return n &amp; ( 1 &lt;&lt; position );
+    <span style="color:#080;font-weight:bold">return</span> n <span style="color:#333">&amp;</span> ( <span style="color:#00d;font-weight:bold">1</span> <span style="color:#333">&lt;&lt;</span> position );
 }
- 
- 
-#define MAX 10001
- 
-int prime[MAX];
- 
-void primeGenerator( int n )
+
+
+<span style="color:#579">#define MAX 10001
+</span><span style="color:#579"></span>
+<span style="color:#339;font-weight:bold">int</span> prime[MAX];
+
+<span style="color:#339;font-weight:bold">void</span> <span style="color:#06b;font-weight:bold">primeGenerator</span>( <span style="color:#339;font-weight:bold">int</span> n )
 {
-    int x = sqrt( n );
-    prime[0] = setBit( prime[0], 0 );
-    prime[0] = setBit( prime[0], 1 );
-    for( int i = 4; i &lt;= x; i += 2 )
-        prime[i/32] = setBit( prime[i/32], i%32 );
-    for( int i = 3; i &lt;= x; i += 2 ) 
+    <span style="color:#339;font-weight:bold">int</span> x <span style="color:#333">=</span> sqrt( n );
+    prime[<span style="color:#00d;font-weight:bold">0</span>] <span style="color:#333">=</span> setBit( prime[<span style="color:#00d;font-weight:bold">0</span>], <span style="color:#00d;font-weight:bold">0</span> );
+    prime[<span style="color:#00d;font-weight:bold">0</span>] <span style="color:#333">=</span> setBit( prime[<span style="color:#00d;font-weight:bold">0</span>], <span style="color:#00d;font-weight:bold">1</span> );
+    <span style="color:#080;font-weight:bold">for</span>( <span style="color:#339;font-weight:bold">int</span> i <span style="color:#333">=</span> <span style="color:#00d;font-weight:bold">4</span>; i <span style="color:#333">&lt;=</span> x; i <span style="color:#333">+=</span> <span style="color:#00d;font-weight:bold">2</span> )
+        prime[i<span style="color:#333">/</span><span style="color:#00d;font-weight:bold">32</span>] <span style="color:#333">=</span> setBit( prime[i<span style="color:#333">/</span><span style="color:#00d;font-weight:bold">32</span>], i<span style="color:#333">%</span><span style="color:#00d;font-weight:bold">32</span> );
+    <span style="color:#080;font-weight:bold">for</span>( <span style="color:#339;font-weight:bold">int</span> i <span style="color:#333">=</span> <span style="color:#00d;font-weight:bold">3</span>; i <span style="color:#333">&lt;=</span> x; i <span style="color:#333">+=</span> <span style="color:#00d;font-weight:bold">2</span> )
     {
-        if( !checkBit( prime[i/32], i%32 ) 
+        <span style="color:#080;font-weight:bold">if</span>( <span style="color:#333">!</span>checkBit( prime[i<span style="color:#333">/</span><span style="color:#00d;font-weight:bold">32</span>], i<span style="color:#333">%</span><span style="color:#00d;font-weight:bold">32</span> )
         {
-            for( int j = i+i; j &lt;= n; j += i )
-                prime[j/32] = setBit( prime[j/32], j%32 );
+            <span style="color:#080;font-weight:bold">for</span>( <span style="color:#339;font-weight:bold">int</span> j <span style="color:#333">=</span> i<span style="color:#333">+</span>i; j <span style="color:#333">&lt;=</span> n; j <span style="color:#333">+=</span> i )
+                prime[j<span style="color:#333">/</span><span style="color:#00d;font-weight:bold">32</span>] <span style="color:#333">=</span> setBit( prime[j<span style="color:#333">/</span><span style="color:#00d;font-weight:bold">32</span>], j<span style="color:#333">%</span><span style="color:#00d;font-weight:bold">32</span> );
         }
     }
- 
-}
-</code></pre>
+
+}</code></pre></div>
 
 <p>এইটা হল সিভের খালাত ভাই।</p>
 
@@ -380,20 +385,25 @@ void primeGenerator( int n )
 <section id="comments">
   <div id="disqus_thread">
     <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'sadlil-com';
-    var disqus_identifier = 'https:\/\/sadlil.com\/blog\/prime-bit-seive-bangla\/';
-    var disqus_title = 'প্রাইম - বিট সিভ';
-    var disqus_url = 'https:\/\/sadlil.com\/blog\/prime-bit-seive-bangla\/';
-
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "sadlil-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   </div>
 </section>
 
@@ -436,6 +446,22 @@ void primeGenerator( int n )
       
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
 
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/go.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/c.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/cpp.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/java.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/javascript.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/python.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/json.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/yaml.min.js"></script>
       
 
       

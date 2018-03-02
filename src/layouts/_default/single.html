@@ -7,6 +7,12 @@
     {{end}}
     <h1 itemprop="name">{{ .Title }}</h1>
     {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
+
+    <!-- LikeBtn.com BEGIN -->
+    <span class="likebtn-wrapper" data-theme="roundthumb" data-ef_voting="push" data-show_like_label="false" data-voting_cancelable="false" data-voting_both="true"></span>
+    <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+    <!-- LikeBtn.com END -->
+
     <div class="article-style" itemprop="articleBody">
       {{ .Content }}
     </div>

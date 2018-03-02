@@ -75,8 +75,8 @@ One integrated platform for software development aspects.
  - Joined the company as #3 employee <br>
  - Leading multiple teams to design and implement core features <br>
  - Design and Implemented gRPC based API server from scratch <br> 
- - Implemented multiteanant auth scheme in core services <br>
- - Worked to build a multiplatform artifact repository for docker, maven, npm etc <br>
+ - Implemented multi tenant auth scheme in core services <br>
+ - Worked to build a multi platform artifact repository for docker, maven, npm etc <br>
  - Contributed and worked with many open source projects including Kubernetes, Jenkins, Docker, GlusterFS, Phabricator <br>
 </div>
 

@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sadlil&#39;s on Sadlil&#39;s</title>
-    <link>https://sadlil.com/index.xml</link>
+    <link>https://sadlil.com/</link>
     <description>Recent content in Sadlil&#39;s on Sadlil&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Kazi Sadlil Rhythom</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AutoBill</title>
@@ -187,41 +187,40 @@ Familiuer with AWS, Google Cloud, gRPC, Jenkins, GlusterFS, HAProxy etc.
 
 &lt;p&gt;এতক্ষন যা বললাম তার একটা ইমপ্লিমেন্টেশনঃ&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;int setBit( int n, int position )
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;setBit&lt;/span&gt;( &lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; n, &lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; position )
 {
-    n = n | ( 1 &amp;lt;&amp;lt; position );
-    return n;
+    n &lt;span style=&#34;color:#333&#34;&gt;=&lt;/span&gt; n &lt;span style=&#34;color:#333&#34;&gt;|&lt;/span&gt; ( &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#333&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; position );
+    &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;return&lt;/span&gt; n;
 }
- 
- 
-bool checkBit( int n, int position )
+
+
+&lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;bool&lt;/span&gt; &lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;checkBit&lt;/span&gt;( &lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; n, &lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; position )
 {
-    return n &amp;amp; ( 1 &amp;lt;&amp;lt; position );
+    &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;return&lt;/span&gt; n &lt;span style=&#34;color:#333&#34;&gt;&amp;amp;&lt;/span&gt; ( &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#333&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; position );
 }
- 
- 
-#define MAX 10001
- 
-int prime[MAX];
- 
-void primeGenerator( int n )
+
+
+&lt;span style=&#34;color:#579&#34;&gt;#define MAX 10001
+&lt;/span&gt;&lt;span style=&#34;color:#579&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; prime[MAX];
+
+&lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;primeGenerator&lt;/span&gt;( &lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; n )
 {
-    int x = sqrt( n );
-    prime[0] = setBit( prime[0], 0 );
-    prime[0] = setBit( prime[0], 1 );
-    for( int i = 4; i &amp;lt;= x; i += 2 )
-        prime[i/32] = setBit( prime[i/32], i%32 );
-    for( int i = 3; i &amp;lt;= x; i += 2 ) 
+    &lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; x &lt;span style=&#34;color:#333&#34;&gt;=&lt;/span&gt; sqrt( n );
+    prime[&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;0&lt;/span&gt;] &lt;span style=&#34;color:#333&#34;&gt;=&lt;/span&gt; setBit( prime[&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;0&lt;/span&gt;], &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;0&lt;/span&gt; );
+    prime[&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;0&lt;/span&gt;] &lt;span style=&#34;color:#333&#34;&gt;=&lt;/span&gt; setBit( prime[&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;0&lt;/span&gt;], &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;1&lt;/span&gt; );
+    &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;for&lt;/span&gt;( &lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#333&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;4&lt;/span&gt;; i &lt;span style=&#34;color:#333&#34;&gt;&amp;lt;=&lt;/span&gt; x; i &lt;span style=&#34;color:#333&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;2&lt;/span&gt; )
+        prime[i&lt;span style=&#34;color:#333&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;32&lt;/span&gt;] &lt;span style=&#34;color:#333&#34;&gt;=&lt;/span&gt; setBit( prime[i&lt;span style=&#34;color:#333&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;32&lt;/span&gt;], i&lt;span style=&#34;color:#333&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;32&lt;/span&gt; );
+    &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;for&lt;/span&gt;( &lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; i &lt;span style=&#34;color:#333&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;3&lt;/span&gt;; i &lt;span style=&#34;color:#333&#34;&gt;&amp;lt;=&lt;/span&gt; x; i &lt;span style=&#34;color:#333&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;2&lt;/span&gt; )
     {
-        if( !checkBit( prime[i/32], i%32 ) 
+        &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;if&lt;/span&gt;( &lt;span style=&#34;color:#333&#34;&gt;!&lt;/span&gt;checkBit( prime[i&lt;span style=&#34;color:#333&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;32&lt;/span&gt;], i&lt;span style=&#34;color:#333&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;32&lt;/span&gt; )
         {
-            for( int j = i+i; j &amp;lt;= n; j += i )
-                prime[j/32] = setBit( prime[j/32], j%32 );
+            &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;for&lt;/span&gt;( &lt;span style=&#34;color:#339;font-weight:bold&#34;&gt;int&lt;/span&gt; j &lt;span style=&#34;color:#333&#34;&gt;=&lt;/span&gt; i&lt;span style=&#34;color:#333&#34;&gt;+&lt;/span&gt;i; j &lt;span style=&#34;color:#333&#34;&gt;&amp;lt;=&lt;/span&gt; n; j &lt;span style=&#34;color:#333&#34;&gt;+=&lt;/span&gt; i )
+                prime[j&lt;span style=&#34;color:#333&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;32&lt;/span&gt;] &lt;span style=&#34;color:#333&#34;&gt;=&lt;/span&gt; setBit( prime[j&lt;span style=&#34;color:#333&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;32&lt;/span&gt;], j&lt;span style=&#34;color:#333&#34;&gt;%&lt;/span&gt;&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;32&lt;/span&gt; );
         }
     }
- 
-}
-&lt;/code&gt;&lt;/pre&gt;
+
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;এইটা হল সিভের খালাত ভাই।&lt;/p&gt;
 

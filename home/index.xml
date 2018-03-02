@@ -2,13 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Sadlil&#39;s</title>
-    <link>https://sadlil.com/home/index.xml</link>
+    <link>https://sadlil.com/home/</link>
     <description>Recent content in Homes on Sadlil&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Kazi Sadlil Rhythom</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://sadlil.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://sadlil.com/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/about/</guid>
+      <description>Sadlil&amp;rsquo;s I am currently Migrating my site to HUGO. Original Site will Be available Soon.
+In few word I am - Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read and travel.
+- Knows How to write code in - Go, C, C++, Java, PHP, JavaScript. - For Frameworks knows - Laravel 5, Spring 3, Grails. Worked with Hibernate.</description>
+    </item>
+    
+    <item>
+      <title>Experiences</title>
+      <link>https://sadlil.com/home/works/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/works/</guid>
+      <description>Software Engineer, Backend Grab, Singapore.
+ Dec 2017 – Present  Full Time  Go gRPC MySQL PgSql Presto  Grab is more than just the leading ride-hailing and mobile payments app in Southeast Asia. We use data and technology to improve everything from transportation to payments and logistics across a region of more than 620 million people. Working with governments, drivers, passengers, and charities, we aim to unlock the true potential of the region by solving problems that hinder progress.</description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://sadlil.com/home/skills/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/skills/</guid>
+      <description>Go C &amp; C++ Java Python  PHP JavaScript Angular 2 Android  Grails Laravel 5 Spring 3 NodeJS  ElasticSearch MySQL/MariaDB PgSQL MongoDB  Docker Kubernetes Vagrant rkt  GCP AWS Azure DO Linode Vultr  Maven Gradel gulp Bazel git  gRPC Protocol Buffer 3 Jenkins GlusterFS HAProxy InfluxDB   </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://sadlil.com/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://sadlil.com/home/blogs/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://sadlil.com/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Achievements</title>
+      <link>https://sadlil.com/home/achievements/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/achievements/</guid>
+      <description>2017  Joined Grab as a Software Engineer
+ Moved to Singapore
+ Contributed In kubernetes/helm
+- Expose tiller server metrics to prometheus
+ Contributed in Kubernetes
+- Resolved Reverse DNS records for named headless services
+- Use updated DNS in cluster  Building Voyager - Secure Kubernetes Ingress Controller by AppsCode
+- Github Link  Became Collaborator of go-gearman
+- Thread safe Job Creating
+ 2016  Participated in my 5th ICPC Dhaka Regional</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://sadlil.com/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/contact/</guid>
+      <description>                               </description>
+    </item>
     
   </channel>
 </rss>

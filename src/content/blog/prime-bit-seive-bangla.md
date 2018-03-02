@@ -46,26 +46,27 @@ Links for Seive algorithm :<br>
 
 এই কাজের জন্য আমরা দুইটা ফাংশন লিখব। int check(long n, long pos) যা আমাদের n ইন্টেজারের pos তম বিটটা চেক করে দিবে যে এইটা ১ নাকি ০। এবং long set(long n, long pos) n এর pos তম বিটটা ১ করে দিবে। বাকিটা ত সিভের মতই।
 
-এতক্ষন যা বললাম তার একটা ইমপ্লিমেন্টেশনঃ 
+এতক্ষন যা বললাম তার একটা ইমপ্লিমেন্টেশনঃ
 
-```c++
+
+{{< highlight c >}}
 int setBit( int n, int position )
 {
     n = n | ( 1 << position );
     return n;
 }
- 
- 
+
+
 bool checkBit( int n, int position )
 {
     return n & ( 1 << position );
 }
- 
- 
+
+
 #define MAX 10001
- 
+
 int prime[MAX];
- 
+
 void primeGenerator( int n )
 {
     int x = sqrt( n );
@@ -73,17 +74,18 @@ void primeGenerator( int n )
     prime[0] = setBit( prime[0], 1 );
     for( int i = 4; i <= x; i += 2 )
         prime[i/32] = setBit( prime[i/32], i%32 );
-    for( int i = 3; i <= x; i += 2 ) 
+    for( int i = 3; i <= x; i += 2 )
     {
-        if( !checkBit( prime[i/32], i%32 ) 
+        if( !checkBit( prime[i/32], i%32 )
         {
             for( int j = i+i; j <= n; j += i )
                 prime[j/32] = setBit( prime[j/32], j%32 );
         }
     }
- 
+
 }
-```
+{{< / highlight >}}
+
 
 এইটা হল সিভের খালাত ভাই।
 

@@ -14,6 +14,8 @@ googleAnalytics = "UA-107529346-1"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+pygmentsStyle = "colorful"
+
 [blackfriday]
   hrefTargetBlank = true
 
@@ -73,7 +75,7 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["go", "c", "cpp", "java", "javascript", "python", "json", "yaml"]
   highlight_style = "github"
   # highlight_version = "9.9.0"
 
