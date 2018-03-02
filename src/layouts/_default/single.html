@@ -8,13 +8,16 @@
     <h1 itemprop="name">{{ .Title }}</h1>
     {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
 
-    <!-- LikeBtn.com BEGIN -->
-    <span class="likebtn-wrapper" data-theme="google" data-ef_voting="push" data-vert="true" data-show_like_label="false" data-icon_like_show="false" data-icon_dislike_show="false" data-voting_cancelable="false" data-voting_both="true" data-counter_type="subtract_dislikes" data-counter_frmt="km" data-counter_padding="500" data-counter_zero_show="true" data-popup_disabled="true" data-site_id="5a98c5ae6fd08b7d5f8717a1"></span>
-    <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
-    <!-- LikeBtn.com END -->
-
     <div class="article-style" itemprop="articleBody">
+      <div style="width: 5%; float: left;">
+        <!-- LikeBtn.com BEGIN -->
+        <span class="likebtn-wrapper" data-theme="google" data-ef_voting="push" data-vert="true" data-show_like_label="false" data-icon_like_show="false" data-icon_dislike_show="false" data-voting_cancelable="false" data-voting_both="true" data-counter_type="subtract_dislikes" data-counter_frmt="km" data-counter_padding="500" data-counter_zero_show="true" data-popup_disabled="true" data-site_id="5a98c5ae6fd08b7d5f8717a1"></span>
+        <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+        <!-- LikeBtn.com END -->
+      </div>
+      <div style="margin-left: 5%">
       {{ .Content }}
+      </div>
     </div>
   </article>
 
