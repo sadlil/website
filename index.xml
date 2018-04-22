@@ -76,7 +76,7 @@ We wanted to know what we could do better to avoid those flunky deadlocks.&lt;/p
 &lt;h3 id=&#34;innodb-deadlock&#34;&gt;InnoDB Deadlock&lt;/h3&gt;
 
 &lt;p&gt;We went on the goose chase and found out that  &amp;ndash; it is possible to cause deadlocks in Innodb
-on concurrent &lt;code&gt;insert&lt;/code&gt; or &lt;code&gt;insert ... on duplicate key update ...&lt;/code&gt; statements,
+on concurrent &lt;code&gt;insert&lt;/code&gt; or &lt;code&gt;insert ... on duplicate key update&lt;/code&gt; statements,
 without there being any transactions in progress. Deadlocks are possible even when the inserts don&amp;rsquo;t collide on any key.
 The reason for getting deadlocks is &lt;strong&gt;Gap Locking&lt;/strong&gt;. There are several reasons for &lt;a href=&#34;https://dev.mysql.com/doc/refman/5.6/en/innodb-locking.html#innodb-gap-locks&#34; target=&#34;_blank&#34;&gt;Gap locking&lt;/a&gt;,
 the most common one is mysql has to deal with preserving a unique key constraint on an index.&lt;/p&gt;

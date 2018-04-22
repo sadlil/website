@@ -429,7 +429,7 @@ h3.article-title{
 .article-style p {
     overflow: hidden;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .ellipsis {
@@ -443,6 +443,12 @@ h3.article-title{
       width:100%;
       margin-right: 0;
     }
+}
+
+@media only screen and (max-width: 1200px) {
+  .article-like-btn {
+    display: None;
+  }
 }
 
 /*.article-list-item:last-child {

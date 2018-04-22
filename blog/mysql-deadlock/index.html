@@ -282,13 +282,13 @@
 
     <br>
     <div class="article-style" itemprop="articleBody">
-      <div style="width: 5%; float: left;">
+      <div style="width: 5%; float: left;" class="article-like-btn">
         
         <span class="likebtn-wrapper" data-theme="google" data-vert="true" data-show_like_label="false" data-icon_like_show="false" data-icon_dislike_show="false" data-voting_cancelable="false" data-voting_both="true" data-counter_type="subtract_dislikes" data-counter_frmt="km" data-counter_padding="285" data-popup_position="right" data-share_enabled="false" data-loader_show="true" data-tooltip_enabled="false" data-site_id="5a98c5ae6fd08b7d5f8717a1"></span>
         <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
         
       </div>
-      <div style="margin-left: 6%">
+      <div style="margin-left: 6%;">
       
 
 <p>Last time i heard the word <strong>deadlock</strong> i was in college. I read the definition of deadlock in text books. I was so lucky
@@ -349,7 +349,7 @@ We wanted to know what we could do better to avoid those flunky deadlocks.</p>
 <h3 id="innodb-deadlock">InnoDB Deadlock</h3>
 
 <p>We went on the goose chase and found out that  &ndash; it is possible to cause deadlocks in Innodb
-on concurrent <code>insert</code> or <code>insert ... on duplicate key update ...</code> statements,
+on concurrent <code>insert</code> or <code>insert ... on duplicate key update</code> statements,
 without there being any transactions in progress. Deadlocks are possible even when the inserts don&rsquo;t collide on any key.
 The reason for getting deadlocks is <strong>Gap Locking</strong>. There are several reasons for <a href="https://dev.mysql.com/doc/refman/5.6/en/innodb-locking.html#innodb-gap-locks" target="_blank">Gap locking</a>,
 the most common one is mysql has to deal with preserving a unique key constraint on an index.</p>
