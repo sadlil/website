@@ -223,16 +223,17 @@ we could do in our application side, hence enhancing our engineering capabilitie
 &lt;p&gt;We are not inserted to switch over to another new storage engine. Probably you too.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion:&lt;/h3&gt;
+&lt;h3 id=&#34;solution&#34;&gt;Solution:&lt;/h3&gt;
 
 &lt;p&gt;After our findings we decided to go with two immediate approach for our unicorn table.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Reduce batch size&lt;/li&gt;
+&lt;li&gt;We are already retrying and will continue doing this,&lt;/li&gt;
+&lt;li&gt;Reduce batch size for query,&lt;/li&gt;
 &lt;li&gt;Order by index columns before query&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;That gives us significant improvement on the situation. May be in future we will also try to shard
+&lt;p&gt;That gave us significant improvement on the situation. May be in future we will also try to shard
   our unicorns tables, we kept the options open.&lt;/p&gt;
 
 &lt;hr /&gt;

@@ -210,13 +210,14 @@ we could do in our application side, hence enhancing our engineering capabilitie
  > We are not inserted to switch over to another new storage engine. Probably you too.
 
 
-### Conclusion:
+### Solution:
  After our findings we decided to go with two immediate approach for our unicorn table.
 
-  - Reduce batch size
+  - We are already retrying and will continue doing this,
+  - Reduce batch size for query,
   - Order by index columns before query
 
-  That gives us significant improvement on the situation. May be in future we will also try to shard
+  That gave us significant improvement on the situation. May be in future we will also try to shard
   our unicorns tables, we kept the options open.
 
 ---
