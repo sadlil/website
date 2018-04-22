@@ -29,11 +29,13 @@ weight = 1
 <br>
 
 In few word I am - <div style="margin-left:2%">
-```
+
+{{< highlight text >}}
 Full time Software Engineer, Hobbyist Photographer. Loves to solves problems.
 Egar to learn new Technologies and plays with them.
 Loves to read, travel and took photographs.
-```
+{{< / highlight >}}
+
 </div>
 
 I have been writing full time codes in __**Golang**__ from 2015. Sometimes also

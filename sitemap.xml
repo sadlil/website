@@ -4,6 +4,14 @@
     
     
     <url>
+      <loc>https://sadlil.com/blog/mysql-deadlock/</loc>
+      <lastmod>2018-04-20T11:27:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://sadlil.com/project/autobill/</loc>
       <lastmod>2017-03-07T00:00:00+00:00</lastmod>
     </url>
@@ -14,14 +22,6 @@
     <url>
       <loc>https://sadlil.com/project/webcommander/</loc>
       <lastmod>2017-03-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://sadlil.com/blog/hello-world/</loc>
-      <lastmod>2017-02-02T11:27:00+00:00</lastmod>
     </url>
     
   
@@ -103,8 +103,26 @@
     
     
     <url>
-      <loc>https://sadlil.com/tags/hello-world/</loc>
-      <lastmod>2017-02-02T11:27:00+00:00</lastmod>
+      <loc>https://sadlil.com/tags/database/</loc>
+      <lastmod>2018-04-20T11:27:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://sadlil.com/tags/deadlock/</loc>
+      <lastmod>2018-04-20T11:27:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://sadlil.com/tags/mysql/</loc>
+      <lastmod>2018-04-20T11:27:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -150,6 +168,15 @@
     <url>
       <loc>https://sadlil.com/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://sadlil.com/tags/software-engineering/</loc>
+      <lastmod>2018-04-20T11:27:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

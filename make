@@ -9,7 +9,7 @@ ROOT=$PWD
 
 case "$1" in
     serve)
-        hugo server --watch --source=src
+        hugo server --watch --source=src --disableFastRender
         ;;
 	build)
 	    hugo --source=src

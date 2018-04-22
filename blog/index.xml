@@ -13,14 +13,14 @@
     
     
     <item>
-      <title>Hello World</title>
-      <link>https://sadlil.com/blog/hello-world/</link>
-      <pubDate>Thu, 02 Feb 2017 11:27:00 +0000</pubDate>
+      <title>How Do We Get Rid of a InnoDB Deadlock</title>
+      <link>https://sadlil.com/blog/mysql-deadlock/</link>
+      <pubDate>Fri, 20 Apr 2018 11:27:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/blog/hello-world/</guid>
-      <description>Hello from Sadlil.
-In few word I am - Full time Software Engineer, Hobbyist Photographer. Loves to solves problems. Egar to learn new Technologies and plays with them. Loves to read and travel.
-Knows How to write code in - Go, C, C++, Java, PHP, JavaScript. For Frameworks knows - Laravel 5, Spring 3, Grails. Worked with Hibernets. Knows MySQL, Postgres for SQL Database But deeply in love with Elasticsearch. Deploys things in - Kubernetes - containerized with Docker.</description>
+      <guid>https://sadlil.com/blog/mysql-deadlock/</guid>
+      <description>Last time i heard the word deadlock i was in college. I read the definition of deadlock in text books. I was so lucky or who knows may be careful that i didn&amp;rsquo;t encounter deadlock until now.
+So lets go, remember the old days by remembering the definition again -
+ A deadlock is a situation where two different programs or processes depend on one another for completion, either because both are using the same resources or because of erroneous cues or other problems.</description>
     </item>
     
     <item>

@@ -5,9 +5,11 @@
     {{ if .Params.image }}
     <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner-full" itemprop="image">
     {{end}}
+
+    <br>
     <h1 itemprop="name">{{ .Title }}</h1>
     {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
-
+    <br>
     <div class="article-style" itemprop="articleBody">
       <div style="width: 5%; float: left;">
         <!-- LikeBtn.com BEGIN -->
@@ -15,7 +17,7 @@
         <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
         <!-- LikeBtn.com END -->
       </div>
-      <div style="margin-left: 5%">
+      <div style="margin-left: 6%">
       {{ .Content }}
       </div>
     </div>
