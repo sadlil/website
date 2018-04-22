@@ -1,5 +1,5 @@
 +++
-date = "2018-04-22T10:30:00"
+date = "2018-04-21T10:30:00"
 draft = false
 tags = ["software engineering", "database", "mysql", "deadlock"]
 title = "How Do We Get Rid of a InnoDB Deadlock"
