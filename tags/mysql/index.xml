@@ -18,7 +18,8 @@
       <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
       
       <guid>https://sadlil.com/blog/mysql-deadlock/</guid>
-      <description>Last time i heard the word deadlock i was in college. I read the definition of deadlock in text books. I was so lucky or who knows may be careful that i didn&amp;rsquo;t encounter deadlock until now.
+      <description>Read in Medium.com
+Last time i heard the word deadlock i was in college. I read the definition of deadlock in text books. I was so lucky or who knows may be careful that i didn&amp;rsquo;t encounter deadlock until now.
 So lets go, remember the old days by remembering the definition again -
  A deadlock is a situation where two different programs or processes depend on one another for completion, either because both are using the same resources or because of erroneous cues or other problems.</description>
     </item>

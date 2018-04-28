@@ -8,6 +8,8 @@ summary = """
 """
 +++
 
+Read in [Medium.com](https://medium.com/@sadlil/how-do-we-get-rid-of-a-innodb-deadlock-6829a2114d1a)
+
 Last time i heard the word **deadlock** i was in college. I read the definition of deadlock in text books. I was so lucky
 or who knows may be careful that i didn't encounter deadlock until now.
 

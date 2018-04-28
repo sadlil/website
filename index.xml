@@ -18,6 +18,8 @@
       <guid>https://sadlil.com/blog/mysql-deadlock/</guid>
       <description>
 
+&lt;p&gt;Read in &lt;a href=&#34;https://medium.com/@sadlil/how-do-we-get-rid-of-a-innodb-deadlock-6829a2114d1a&#34; target=&#34;_blank&#34;&gt;Medium.com&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;Last time i heard the word &lt;strong&gt;deadlock&lt;/strong&gt; i was in college. I read the definition of deadlock in text books. I was so lucky
 or who knows may be careful that i didn&amp;rsquo;t encounter deadlock until now.&lt;/p&gt;
 
