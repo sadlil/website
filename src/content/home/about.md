@@ -28,7 +28,7 @@ weight = 1
 +++
 <br>
 
-In few word I am - <div style="margin-left:2%">
+In few words I am - <div style="margin-left:2%">
 
 > Full time Software Engineer, In Need DevOps/SysOps. Hobbyist Photographer.
 Loves to solves problems. Egar to learn new Technologies and plays with them.
@@ -38,20 +38,25 @@ Loves to read, travel and took photographs.
 
 I have been writing codes full time in __**Golang**__ from 2015. Sometimes also
 use other languages like __**C, C++, Java, PHP and Javascript**__.
-Instead of HTTP REST i like to work with **gRPC** Now. I Try to design my APIs
-in gRPC now where i can. Its robust performance and scalability amuses me.
-Years ago i worked with **Grails, Laravel 5 and Spring 3** frameworks.
-Not in touch with these for a long time though, because i work with
+Instead of HTTP REST I like to work with **gRPC** Now. I Try to design my APIs
+in gRPC now where I can. Its robust performance and scalability amuses me.
+Years ago I worked with **Grails, Laravel 5 and Spring 3** frameworks.
+Not in touch with these for a long time though, because I work with
 awesome Go now. :)
 
 I have used **MySQL/MariaDB**, **Postgres**; But really really in love with
-**ElasticSearch**. I also learned about **Presto**, It is fun.<br>
+**ElasticSearch**. Recently learned about **Presto**, It is fun.<br>
+
+Likes to stream out data between services with **Kafka** or **SQS**. Gives me power
+to have scaleable and reliable services.
 
 I love to deploy things in **Kubernetes** by containerizing them with **docker**.
 Monitoring them with **Prometheus and Grafana**. Loadbalance with **HAProxy**.
 I Love to play with Kubernetes, Provision kube clusters in **aws, google cloud**.
+
 I believe in testing, I try my best cover things under **unit tests, e2e tests and
 integration tests**. I like to use CI/CD pipeline with **Jenkins**.
+
 I like to have Scaling and Performance in mind. Love **HAProxy** to do some heavy lifting
 for me.
 
