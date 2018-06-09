@@ -17,7 +17,7 @@ detailed_list = true
 [**Grab, Singapore.**](https://grab.com)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>
-    <span class="exp-work-duration-date">Dec 2017 – Present</span>
+    <span class="exp-work-duration-date">Nov 2017 – Present</span>
     <i class="fa fa-tasks" aria-hidden="true"></i>
     <span class="exp-work-type">Full Time</span>
 </div>
@@ -40,13 +40,14 @@ drivers and passengers with an emphasis on speed, safety, and reliability. Curre
 in Singapore, Indonesia, Philippines, Malaysia, Thailand and Vietnam; however, we also have R&D offices
 in Bangalore, Beijing, & Seattle.</div>
 <div class=exp-work-worked>
+ - Designed, Architect and Build several micro services to scale support <br>
+ - Worked as an team **DevOps** to supports team's scalable cloud infrastructure <br>
  - Work with teams to Scale core Backend services <br>
  - Work with PMs to collaborate with Business requirements and design software systems to support those requirements <br>
- - Work closely with Data Scientists to support huge user loads and identify goals <br>
+ - Work closely and provided support for Data Scientists core ML systems <br>
  - Design and Implement Backend services for Core teams <br>
  - Support and scale systems to handle millions of request <br>
  - Work on API Layer design to support large scale system <br>
- - Support Fixing production BUGS <br>
 </div>
 
 ----
@@ -74,6 +75,7 @@ One integrated platform for software development aspects.
 </div>
 <div class=exp-work-worked>
  - Joined the company as #3 employee <br>
+ - Worked as a **DevOps** and lead the team to maintain scalable infrastructures in aws, gce <br>
  - Leading multiple teams to design and implement core features <br>
  - Design and Implemented gRPC based API server from scratch <br>
  - Worked to build with kubernetes controllers tools to utilize kubernetes services <br>
@@ -109,7 +111,7 @@ to go beyond the goals.
  </div>
 
 ----
-> ## **Lead Consultant**
+> ## **Consultant**
 [**X-OR Studio, Bangladesh.**](https://appscode.com)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>

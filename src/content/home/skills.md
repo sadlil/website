@@ -38,7 +38,6 @@ weight = 2
     <span>Azure</span>
     <span>DO</span>
     <span>Linode</span>
-    <span>Vultr</span>
     <hr>
     <span>Maven</span> 
     <span>Gradel</span>
@@ -51,6 +50,9 @@ weight = 2
     <span>Jenkins</span>
     <span>GlusterFS</span>
     <span>HAProxy</span>
-    <span>InfluxDB</span> 
+    <span>InfluxDB</span>
+    <hr>
+    <span>Kafka</span>
+    <span>SQS</span>
 </div>
 </div>
