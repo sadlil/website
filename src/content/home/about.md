@@ -12,10 +12,10 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Competitive Programming",
-    "Data Science",
-    "Astro Physics",
     "Open Source",
+    "Data Science",
+    "Competitive Programming",
+    "Astro Physics",
     "Photography"
   ]
 
@@ -31,14 +31,15 @@ weight = 1
 In few word I am - <div style="margin-left:2%">
 
 {{< highlight text >}}
-Full time Software Engineer, Hobbyist Photographer. Loves to solves problems.
+Full time Software Engineer, In Need DevOps/SysOps.
+Hobbyist Photographer. Loves to solves problems.
 Egar to learn new Technologies and plays with them.
 Loves to read, travel and took photographs.
 {{< / highlight >}}
 
 </div>
 
-I have been writing full time codes in __**Golang**__ from 2015. Sometimes also
+I have been writing codes full time in __**Golang**__ from 2015. Sometimes also
 use other languages like __**C, C++, Java, PHP and Javascript**__.
 Instead of HTTP REST i like to work with **gRPC** Now. I Try to design my APIs
 in gRPC now where i can. Its robust performance and scalability amuses me.

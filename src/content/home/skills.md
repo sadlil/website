@@ -20,11 +20,7 @@ weight = 2
     <span>Java</span>
     <span>Python</span>
     <hr>
-    <span>PHP</span> 
-    <span>JavaScript</span>
-    <span>Angular 2</span>
-    <hr>
-    <span>Grails</span> 
+    <span>Grails</span>
     <span>Laravel 5</span>
     <span>Spring 3</span>
     <hr>
@@ -36,7 +32,6 @@ weight = 2
     <span>Docker</span> 
     <span>Kubernetes</span>
     <span>Vagrant</span>
-    <span>rkt</span>
     <hr>
     <span>GCP</span> 
     <span>AWS</span>
