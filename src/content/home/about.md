@@ -30,12 +30,9 @@ weight = 1
 
 In few word I am - <div style="margin-left:2%">
 
-{{< highlight text >}}
-Full time Software Engineer, In Need DevOps/SysOps.
-Hobbyist Photographer. Loves to solves problems.
-Egar to learn new Technologies and plays with them.
+> Full time Software Engineer, In Need DevOps/SysOps. Hobbyist Photographer.
+Loves to solves problems. Egar to learn new Technologies and plays with them.
 Loves to read, travel and took photographs.
-{{< / highlight >}}
 
 </div>
 
