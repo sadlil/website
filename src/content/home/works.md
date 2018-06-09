@@ -40,7 +40,7 @@ drivers and passengers with an emphasis on speed, safety, and reliability. Curre
 in Singapore, Indonesia, Philippines, Malaysia, Thailand and Vietnam; however, we also have R&D offices
 in Bangalore, Beijing, & Seattle.</div>
 <div class=exp-work-worked>
- - Designed, Architect and Build several micro services to scale support <br>
+ - Designed, Architect and Build several micro services to scale and divide team workloads <br>
  - Worked as an team **DevOps** to supports team's scalable cloud infrastructure <br>
  - Work with teams to Scale core Backend services <br>
  - Work with PMs to collaborate with Business requirements and design software systems to support those requirements <br>
