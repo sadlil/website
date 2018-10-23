@@ -138,37 +138,12 @@ to go beyond the goals.
  - Design and Implemented core features of WebCommander and Autobill.<br>
  </div>
 
-----
-> ## **Consultant**
-[**X-OR Studio, Bangladesh.**](https://appscode.com)<br>
-<div class="exp-work-duration">
-    <i class="fa fa-calendar" aria-hidden="true"></i>
-    <span class="exp-work-duration-date">Apr 2014 – Feb 2016</span>
-    <i class="fa fa-tasks" aria-hidden="true"></i>
-    <span class="exp-work-type">Contractual</span>
-</div>
-<div class=exp-work-tech>
-    <span>Java</span>
-    <span>Android</span>
-    <span>Spring3</span>
-    <span>MySQL</span>
-    <span>PHP</span>
-    <span>Laravel</span>
-<div>
-<div class="exp-work-desc">
-A local startup innovative developer firm. Works with Mobile Apps, Games and Web applications. 
-</div>
-<div class=exp-work-worked>
- - Design several high performance server backed mobile application for android <br>
- - Lead the team to implement and fix bugs <br>
-</div>
-
 ---
 > ## **Consultant**
 [**BinaryCube IT, Bangladesh.**](http://binarycubeit.com/)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>
-    <span class="exp-work-duration-date">Jan 2015 – Nov 2015</span>
+    <span class="exp-work-duration-date">Jan 2014 – Nov 2014</span>
     <i class="fa fa-tasks" aria-hidden="true"></i>
     <span class="exp-work-type">Contractual</span>
 </div>
