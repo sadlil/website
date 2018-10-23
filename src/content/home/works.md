@@ -52,33 +52,6 @@ in Bangalore, Beijing, & Seattle.</div>
 
 ----
 
-> ## **Infrastructure Consultant**
-[**Pathao Ltd, Bangladesh.**](https://pathao.com)<br>
-<div class="exp-work-duration">
-    <i class="fa fa-calendar" aria-hidden="true"></i>
-    <span class="exp-work-duration-date">Aug 2017 – Oct 2017</span>
-    <i class="fa fa-tasks" aria-hidden="true"></i>
-    <span class="exp-work-type">Consultant</span>
-</div>
-<div class="exp-work-tech">
-    <span>Go</span>
-    <span>Kubernetes</span>
-    <span>gRPC</span>
-    <span>Docker</span>
-<div>
-<div class="exp-work-desc">
-Pathao (Bengali: পাঠাও); is a Bangladeshi transportation technology company headquartered in Dhaka, Bangladesh.
-and its operating services in several cities of Bangladesh. Besides ride-sharing services, it operates E-Commerce,
-Marchant Delivery, Courier and Food Delivery services.Pathao is a Bengali word meaning "send it".
-</div>
-<div class=exp-work-worked>
- - Trained and helped Engineers to understand and use kubernetes in large scale. <br>
- - Bootstrapped Google Container Engine based Infrastructure. <br>
- - Wrote developer system tools to help ease bootstrapping, monitoring GCE kubernetes clusters.<br>
-
-----
-
-
 > ## **Software Engineer**
 [**AppsCode Ltd, Bangladesh. (Former The TigerWorks Pvt. Ltd)**](https://appscode.com)<br>
 <div class="exp-work-duration">
@@ -112,6 +85,34 @@ One integrated platform for software development aspects.
 </div>
 
 ----
+
+
+> ## **Infrastructure Consultant**
+[**Pathao Ltd, Bangladesh.**](https://pathao.com)<br>
+<div class="exp-work-duration">
+    <i class="fa fa-calendar" aria-hidden="true"></i>
+    <span class="exp-work-duration-date">Aug 2017 – Oct 2017</span>
+    <i class="fa fa-tasks" aria-hidden="true"></i>
+    <span class="exp-work-type">Consultant</span>
+</div>
+<div class="exp-work-tech">
+    <span>Go</span>
+    <span>Kubernetes</span>
+    <span>gRPC</span>
+    <span>Docker</span>
+<div>
+<div class="exp-work-desc">
+Pathao (Bengali: পাঠাও); is a Bangladeshi transportation technology company headquartered in Dhaka, Bangladesh.
+and its operating services in several cities of Bangladesh. Besides ride-sharing services, it operates E-Commerce,
+Marchant Delivery, Courier and Food Delivery services.Pathao is a Bengali word meaning "send it".
+</div>
+<div class=exp-work-worked>
+ - Trained and helped Engineers to understand and use kubernetes in large scale. <br>
+ - Bootstrapped Google Container Engine based Infrastructure. <br>
+ - Wrote developer system tools to help ease bootstrapping, monitoring GCE kubernetes clusters.<br>
+
+----
+
 > ## **Jr. Software Engineer**
 [**Bit Mascot Pvt Ltd, Bangladesh.**](http://www.bitmascot.com/)<br>
 <div class="exp-work-duration">
