@@ -87,7 +87,7 @@ One integrated platform for software development aspects.
 ----
 
 
-> ## **Infrastructure Consultant**
+> ## **Systems Engineering Consultant**
 [**Pathao Ltd, Bangladesh.**](https://pathao.com)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>
@@ -107,9 +107,10 @@ and its operating services in several cities of Bangladesh. Besides ride-sharing
 Marchant Delivery, Courier and Food Delivery services.Pathao is a Bengali word meaning "send it".
 </div>
 <div class=exp-work-worked>
- - Trained and helped Engineers to understand and use kubernetes in large scale. <br>
  - Bootstrapped Google Container Engine based Infrastructure. <br>
  - Wrote developer system tools to help ease bootstrapping, monitoring GCE kubernetes clusters.<br>
+ - Trained and helped Engineers to understand and use kubernetes in large scale. <br>
+
 
 ----
 
