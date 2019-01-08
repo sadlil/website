@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.47.1" />
+  <meta name="generator" content="Hugo 0.53" />
   <meta name="author" content="Kazi Sadlil Rhythom">
   <meta name="description" content="Senior Software Engineer, Backend">
 
@@ -309,28 +309,28 @@ Lets try to do some better understanding, by writing a few lines in code languag
 
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#080;font-weight:bold">var</span> m1, m2 sync.Mutex
 
-<span style="color:#080;font-weight:bold">func</span> main() {
+<span style="color:#080;font-weight:bold">func</span> <span style="color:#06b;font-weight:bold">main</span>() {
 	<span style="color:#080;font-weight:bold">var</span> wg sync.WaitGroup
 
-	wg.Add(<span style="color:#00d;font-weight:bold">1</span>)
+	wg.<span style="color:#06b;font-weight:bold">Add</span>(<span style="color:#00d;font-weight:bold">1</span>)
 	<span style="color:#080;font-weight:bold">go</span> <span style="color:#080;font-weight:bold">func</span>() {
-		<span style="color:#080;font-weight:bold">defer</span> wg.Done()
+		<span style="color:#080;font-weight:bold">defer</span> wg.<span style="color:#06b;font-weight:bold">Done</span>()
 
-		m1.Lock()
-		time.Sleep(time.Second <span style="color:#333">*</span> <span style="color:#00d;font-weight:bold">2</span>)
-		m2.Lock()
+		m1.<span style="color:#06b;font-weight:bold">Lock</span>()
+		time.<span style="color:#06b;font-weight:bold">Sleep</span>(time.Second <span style="color:#333">*</span> <span style="color:#00d;font-weight:bold">2</span>)
+		m2.<span style="color:#06b;font-weight:bold">Lock</span>()
 	}()
 
-	wg.Add(<span style="color:#00d;font-weight:bold">1</span>)
+	wg.<span style="color:#06b;font-weight:bold">Add</span>(<span style="color:#00d;font-weight:bold">1</span>)
 	<span style="color:#080;font-weight:bold">go</span> <span style="color:#080;font-weight:bold">func</span>() {
-		<span style="color:#080;font-weight:bold">defer</span> wg.Done()
+		<span style="color:#080;font-weight:bold">defer</span> wg.<span style="color:#06b;font-weight:bold">Done</span>()
 
-		m2.Lock()
-		time.Sleep(time.Second <span style="color:#333">*</span> <span style="color:#00d;font-weight:bold">3</span>)
-		m1.Lock()
+		m2.<span style="color:#06b;font-weight:bold">Lock</span>()
+		time.<span style="color:#06b;font-weight:bold">Sleep</span>(time.Second <span style="color:#333">*</span> <span style="color:#00d;font-weight:bold">3</span>)
+		m1.<span style="color:#06b;font-weight:bold">Lock</span>()
 	}()
 
-	wg.Wait()
+	wg.<span style="color:#06b;font-weight:bold">Wait</span>()
 }</code></pre></div>
 
 <p><a href="https://play.golang.org/p/HZzEQiebUdR" target="_blank">See in Playground</a>. Boom here we go, <strong>Deadlock</strong>.</p>

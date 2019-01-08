@@ -36,28 +36,28 @@ Lets try to do some better understanding, by writing a few lines in code languag
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;var&lt;/span&gt; m1, m2 sync.Mutex
 
-&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;func&lt;/span&gt; main() {
+&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;main&lt;/span&gt;() {
 	&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;var&lt;/span&gt; wg sync.WaitGroup
 
-	wg.Add(&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;1&lt;/span&gt;)
+	wg.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Add&lt;/span&gt;(&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;1&lt;/span&gt;)
 	&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;func&lt;/span&gt;() {
-		&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;defer&lt;/span&gt; wg.Done()
+		&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;defer&lt;/span&gt; wg.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Done&lt;/span&gt;()
 
-		m1.Lock()
-		time.Sleep(time.Second &lt;span style=&#34;color:#333&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;2&lt;/span&gt;)
-		m2.Lock()
+		m1.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Lock&lt;/span&gt;()
+		time.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Sleep&lt;/span&gt;(time.Second &lt;span style=&#34;color:#333&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;2&lt;/span&gt;)
+		m2.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Lock&lt;/span&gt;()
 	}()
 
-	wg.Add(&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;1&lt;/span&gt;)
+	wg.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Add&lt;/span&gt;(&lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;1&lt;/span&gt;)
 	&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;go&lt;/span&gt; &lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;func&lt;/span&gt;() {
-		&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;defer&lt;/span&gt; wg.Done()
+		&lt;span style=&#34;color:#080;font-weight:bold&#34;&gt;defer&lt;/span&gt; wg.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Done&lt;/span&gt;()
 
-		m2.Lock()
-		time.Sleep(time.Second &lt;span style=&#34;color:#333&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;3&lt;/span&gt;)
-		m1.Lock()
+		m2.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Lock&lt;/span&gt;()
+		time.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Sleep&lt;/span&gt;(time.Second &lt;span style=&#34;color:#333&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#00d;font-weight:bold&#34;&gt;3&lt;/span&gt;)
+		m1.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Lock&lt;/span&gt;()
 	}()
 
-	wg.Wait()
+	wg.&lt;span style=&#34;color:#06b;font-weight:bold&#34;&gt;Wait&lt;/span&gt;()
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://play.golang.org/p/HZzEQiebUdR&#34; target=&#34;_blank&#34;&gt;See in Playground&lt;/a&gt;. Boom here we go, &lt;strong&gt;Deadlock&lt;/strong&gt;.&lt;/p&gt;

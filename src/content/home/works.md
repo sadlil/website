@@ -40,14 +40,13 @@ drivers and passengers with an emphasis on speed, safety, and reliability. Curre
 in Singapore, Indonesia, Philippines, Malaysia, Thailand and Vietnam; however, we also have R&D offices
 in Bangalore, Beijing, & Seattle.</div>
 <div class=exp-work-worked>
- - Designed, Architect and Build several micro services to scale and divide team workloads <br>
- - Worked as an team **DevOps** to supports team's scalable cloud infrastructure <br>
- - Work with teams to Scale core Backend services <br>
- - Work with PMs to collaborate with Business requirements and design software systems to support those requirements <br>
- - Work closely and provided support for Data Scientists core ML systems <br>
- - Design and Implement Backend services for Core teams <br>
+ - Designed, Architect and Build several micro services to divide and scale workloads <br>
+ - Worked as an team **SRE** to supports team's scalable cloud infrastructure <br>
+ - Actively participated in **OnCall** rotation and Engineering Postmortems process <br>
+ - Work with multiple teams and PMs to collaborate with Business requirements and design software systems <br>
+ - Participated in Design and Implementation process for scalable Backend services for Core Supply Sapping team <br>
  - Support and scale systems to handle millions of request <br>
- - Work on API Layer design to support large scale system <br>
+ - Support team by actively getting engaged with making improvements for monitoring and alert systems <br>
 </div>
 
 ----
@@ -104,7 +103,7 @@ One integrated platform for software development aspects.
 <div class="exp-work-desc">
 Pathao (Bengali: পাঠাও); is a Bangladeshi transportation technology company headquartered in Dhaka, Bangladesh.
 and its operating services in several cities of Bangladesh. Besides ride-sharing services, it operates E-Commerce,
-Marchant Delivery, Courier and Food Delivery services.Pathao is a Bengali word meaning "send it".
+Merchant Delivery, Courier and Food Delivery services.Pathao is a Bengali word meaning "send it".
 </div>
 <div class=exp-work-worked>
  - Bootstrapped Google Container Engine based Infrastructure. <br>
@@ -135,7 +134,7 @@ digital solutions to clients large and small. With strong commitment to achieve 
 to go beyond the goals.
 </div>
 <div class=exp-work-worked>
- - Worked as Full Stack Developer in multiple in-house projects, like - WebCommander, Autobill.<br>
+ - Worked as Software Engineer in multiple in-house projects, like - WebCommander, Autobill.<br>
  - Design and Implemented core features of WebCommander and Autobill.<br>
  </div>
 
