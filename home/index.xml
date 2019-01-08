@@ -75,16 +75,9 @@ Started learning coding in 2011 with C. Since then never stopped learning and tr
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/home/achievements/</guid>
-      <description>2018  Started Building gophersbd/ormpb - golang orm implementation based on protobuf
-- gophersbd/ormpb
- Learned How to ride a Bicycle
- 2017  Joined Grab as a Software Engineer
- Moved to Singapore
- Contributed In kubernetes/helm
-- Expose tiller server metrics to prometheus
- Contributed in Kubernetes
-- Resolved Reverse DNS records for named headless services
-- Use updated DNS in cluster  Building Voyager - Secure Kubernetes Ingress Controller by AppsCode</description>
+      <description>2018  Became Dad of a Beautiful Prince
+ Designed Joule - Unit of Work Service - Kafka based Data aggregation and unification service
+- Never faced any data or engineering issue still handling 20M+ event every day. - Can be called reliable as never loses any data even in war times. - Designed unitsdk for external teams to integrate with the service, being used without complain.  Learned Swimming</description>
     </item>
     
     <item>

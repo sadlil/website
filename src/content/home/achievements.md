@@ -11,6 +11,15 @@ weight = 5
 
 +++
 ### 2018
+> **Became Dad of a Beautiful Prince**<br>
+<hr>
+> **Designed Joule - Unit of Work Service - Kafka based Data aggregation and unification service**<br>
+- Never faced any data or engineering issue still handling 20M+ event every day. <br>
+- Can be called reliable as never loses any data even in war times. <br>
+- Designed `unitsdk` for external teams to integrate with the service, being used without complain. <br>
+<hr>
+> **Learned Swimming**<br>
+<hr>
 > **Started Building gophersbd/ormpb - golang orm implementation based on protobuf**<br>
 - [gophersbd/ormpb](https://github.com/gophersbd/ormpb)<br>
 <hr>
