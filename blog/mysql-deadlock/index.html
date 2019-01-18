@@ -474,7 +474,7 @@ we could do in our application side, hence enhancing our engineering capabilitie
 <p>Ordering the indexed values in query for every connection reduces the probabilities of higher gap locks. In our example table
  above, we could actually avoid the deadlock by inserting the values in the order of <code>name</code> index.</p>
 
-<p>Let me explain in a bit more details for this as i have a comment to elaborate this phrase. If we go back to our example with unicorns table and the queries with two connection we saw that queries in the following order
+<p>Let me explain in a bit more details for this as i have a comment to elaborate this phrase. If we go back to our example with unicorns table and the queries with two connection we saw that queries in the following order<br>
  1. Connection 1 to insert &ldquo;ppp&rdquo; and requiring gap lock between &ldquo;jjj&rdquo; to &ldquo;ppp&rdquo;;<br>
  2. Connection 2 to insert &ldquo;iii&rdquo; and requiring gap lock between &ldquo;ggg&rdquo; to &ldquo;iii&rdquo;;
  and trying to insert &ldquo;mmm&rdquo; and this requires lock after &ldquo;jjj&rdquo; upto &ldquo;mmm&rdquo;.<br>
