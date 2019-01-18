@@ -474,6 +474,14 @@ we could do in our application side, hence enhancing our engineering capabilitie
 <p>Ordering the indexed values in query for every connection reduces the probabilities of higher gap locks. In our example table
  above, we could actually avoid the deadlock by inserting the values in the order of <code>name</code> index.</p>
 
+<p>Let me explain in a bit more details for this as i have a comment to elaborate this phrase. If we go back to our example with unicorns table and the queries with two connection we saw that queries in the following order
+ 1. Connection 1 to insert &ldquo;ppp&rdquo; and requiring gap lock between &ldquo;jjj&rdquo; to &ldquo;ppp&rdquo;;<br>
+ 2. Connection 2 to insert &ldquo;iii&rdquo; and requiring gap lock between &ldquo;ggg&rdquo; to &ldquo;iii&rdquo;;
+ and trying to insert &ldquo;mmm&rdquo; and this requires lock after &ldquo;jjj&rdquo; upto &ldquo;mmm&rdquo;.<br>
+ 3. Connection 1 to insert &ldquo;hhh&rdquo; and that required gap lock between &ldquo;ggg&rdquo; and &ldquo;hhh&rdquo;;<br>
+ But this is already held by connection 2. And connection 2 can not complete its query because it is waiting on connection 1 to release the lock for &ldquo;ppp&rdquo;. And gets the dead lock.
+ But if we insert those quires in order of &ldquo;name&rdquo; that is actually our index, and tries to executes those sorted queries  - as connection 1 tries to insert &ldquo;hhh&rdquo; first before trying to insert &ldquo;ppp&rdquo; -  this reduces chances of deadlock by reducing chances for minimised gap locks.</p>
+
 <blockquote>
 <p>Now that&rsquo;s what we can defiantly do. Sorting increases the full process execution time a bit, but with
  some good sorting algorithms available that is not that much.</p>

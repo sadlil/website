@@ -201,6 +201,14 @@ we could do in our application side, hence enhancing our engineering capabilitie
 &lt;p&gt;Ordering the indexed values in query for every connection reduces the probabilities of higher gap locks. In our example table
  above, we could actually avoid the deadlock by inserting the values in the order of &lt;code&gt;name&lt;/code&gt; index.&lt;/p&gt;
 
+&lt;p&gt;Let me explain in a bit more details for this as i have a comment to elaborate this phrase. If we go back to our example with unicorns table and the queries with two connection we saw that queries in the following order
+ 1. Connection 1 to insert &amp;ldquo;ppp&amp;rdquo; and requiring gap lock between &amp;ldquo;jjj&amp;rdquo; to &amp;ldquo;ppp&amp;rdquo;;&lt;br&gt;
+ 2. Connection 2 to insert &amp;ldquo;iii&amp;rdquo; and requiring gap lock between &amp;ldquo;ggg&amp;rdquo; to &amp;ldquo;iii&amp;rdquo;;
+ and trying to insert &amp;ldquo;mmm&amp;rdquo; and this requires lock after &amp;ldquo;jjj&amp;rdquo; upto &amp;ldquo;mmm&amp;rdquo;.&lt;br&gt;
+ 3. Connection 1 to insert &amp;ldquo;hhh&amp;rdquo; and that required gap lock between &amp;ldquo;ggg&amp;rdquo; and &amp;ldquo;hhh&amp;rdquo;;&lt;br&gt;
+ But this is already held by connection 2. And connection 2 can not complete its query because it is waiting on connection 1 to release the lock for &amp;ldquo;ppp&amp;rdquo;. And gets the dead lock.
+ But if we insert those quires in order of &amp;ldquo;name&amp;rdquo; that is actually our index, and tries to executes those sorted queries  - as connection 1 tries to insert &amp;ldquo;hhh&amp;rdquo; first before trying to insert &amp;ldquo;ppp&amp;rdquo; -  this reduces chances of deadlock by reducing chances for minimised gap locks.&lt;/p&gt;
+
 &lt;blockquote&gt;
 &lt;p&gt;Now that&amp;rsquo;s what we can defiantly do. Sorting increases the full process execution time a bit, but with
  some good sorting algorithms available that is not that much.&lt;/p&gt;
