@@ -12,10 +12,7 @@ weight = 5
 +++
 ### 2019
 > **Joined Booking.com As a Site Reliability Engineer**<br>
-- Working on their broad multi cloud and bare metal kubernetes container architecture with <br>
-<hr>
-> **Joined Booking.com As a Site Reliability Engineer**<br>
-- Working on their broad multi cloud and bare metal kubernetes container architecture with <br>
+- Working on multi cloud and bare metal kubernetes container architecture<br>
 <hr>
 > **Moved to Amsterdam, Netherlands**<br>
 

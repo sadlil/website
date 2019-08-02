@@ -77,10 +77,11 @@ The site has 28,425,726 listings in 148,470 destinations in 228 countries and te
       
       <guid>https://sadlil.com/home/achievements/</guid>
       <description>2019  Joined Booking.com As a Site Reliability Engineer
-- Working on their broad multi cloud and bare metal kubernetes container architecture with  Joined Booking.com As a Site Reliability Engineer
-- Working on their broad multi cloud and bare metal kubernetes container architecture with  Moved to Amsterdam, Netherlands
+- Working on multi cloud and bare metal kubernetes container architecture
+ Moved to Amsterdam, Netherlands
  2018  Became Dad of a Beautiful Prince
- Designed Joule - Unit of Work Service - Kafka based Data aggregation and unification service</description>
+ Designed Joule - Unit of Work Service - Kafka based Data aggregation and unification service
+- Never faced any data or engineering issue still handling 20M+ event every day. - Can be called reliable as never loses any data even in war times.</description>
     </item>
     
     <item>
