@@ -1281,3 +1281,8 @@ div.alert a:hover {
 #contact-profile .social-icon li:hover {
   transform: scale(1.2)
 }
+
+.achievement-details{
+  font-size: 15px !important;
+  margin-left: 6px !important;
+}

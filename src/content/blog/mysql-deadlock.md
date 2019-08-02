@@ -214,8 +214,8 @@ we could do in our application side, hence enhancing our engineering capabilitie
 
 #### Use MySIAM storage engine
  There is another option to avoid deadlock to use a different engine entirely. MySIAM Engine has a mechanism
- to avoid a deadlock scenario. Instead of row level locking MySIAM uses full table level locking. And I believe
- MySIAM doesn not implement any transaction.
+ to avoid a deadlock scenario. Instead of row level locking MySIAM uses full table level locking. And I
+ MySIAM does not implement any transaction.
 
  > We are not inserted to switch over to another new storage engine. Probably you too.
 

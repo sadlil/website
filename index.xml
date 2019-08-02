@@ -225,8 +225,8 @@ we could do in our application side, hence enhancing our engineering capabilitie
 &lt;h4 id=&#34;use-mysiam-storage-engine&#34;&gt;Use MySIAM storage engine&lt;/h4&gt;
 
 &lt;p&gt;There is another option to avoid deadlock to use a different engine entirely. MySIAM Engine has a mechanism
- to avoid a deadlock scenario. Instead of row level locking MySIAM uses full table level locking. And I believe
- MySIAM doesn not implement any transaction.&lt;/p&gt;
+ to avoid a deadlock scenario. Instead of row level locking MySIAM uses full table level locking. And I
+ MySIAM does not implement any transaction.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;We are not inserted to switch over to another new storage engine. Probably you too.&lt;/p&gt;
