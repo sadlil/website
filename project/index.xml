@@ -18,9 +18,7 @@
       <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/project/autobill/</guid>
-      <description>Built At: Bit Mascot Pvt. LTD
-Built With:  Groovy Grails MySQL Javascript       
-An automated billing software to manage clients Billing. Manages automated invoice and Recurring Billing. AutoBill delivers extended functionality enabling any business, organisation or association to engage in online customer interaction much more efficiently. With a rich feature set including self-service customer portal, electronic invoicing and one-click pay now features, AutoBill makes it quick and easy for customers to pay – ensuring regular cash flow that is the lifeblood of any business.</description>
+      <description>An automated billing software built in Bit Mascot. Manages automated invoice and Recurring Billing</description>
     </item>
     
     <item>
@@ -29,9 +27,7 @@ An automated billing software to manage clients Billing. Manages automated invoi
       <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/project/webcommander/</guid>
-      <description>Built At: Bit Mascot Pvt. LTD
-Built With:  Groovy Grails MySQL Javascript       
-WebCommander has everything you need to deploy and run a successful online store. Much more than an eCommerce CMS, WebCommander includes Drag &amp;amp; Drop store design, beautiful templates, powerful eCommerce tools, built in SEO, a blog, comprehensive statistical &amp;amp; administration tools, mCommerce, social networking integration, discounts, coupons, wishlists and much more.</description>
+      <description>WebCommander has everything you need to deploy and run a successful online store. Much more than an eCommerce CMS</description>
     </item>
     
     <item>
@@ -40,10 +36,7 @@ WebCommander has everything you need to deploy and run a successful online store
       <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/project/pc-oscilloscope/</guid>
-      <description>Built At: Mawlana Bhashani Science and Technology University
-Built With:  JavaSE JavaComm C++   
-
-A computer based Oscilloscope simulation program. Shows the output of an oscillating AC circuit&amp;rsquo;s in computer monitor with an JavaSE based Application. An circuit capture the oscillating power and the interpret it and then send it to the JavaSE application via USB. The Java Desktop application shows the changing graph in the computer monitor.</description>
+      <description>A computer based Oscilloscope simulation program. Shows the output of an oscillating AC circuit&amp;rsquo;s in computer monitor with an JavaSE based Application.</description>
     </item>
     
   </channel>

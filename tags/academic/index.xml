@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on Sadlil&#39;s</title>
+    <title>academic on Sadlil&#39;s</title>
     <link>https://sadlil.com/tags/academic/</link>
-    <description>Recent content in Academic on Sadlil&#39;s</description>
+    <description>Recent content in academic on Sadlil&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Kazi Sadlil Rhythom</copyright>
@@ -18,10 +18,7 @@
       <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/project/pc-oscilloscope/</guid>
-      <description>Built At: Mawlana Bhashani Science and Technology University
-Built With:  JavaSE JavaComm C++   
-
-A computer based Oscilloscope simulation program. Shows the output of an oscillating AC circuit&amp;rsquo;s in computer monitor with an JavaSE based Application. An circuit capture the oscillating power and the interpret it and then send it to the JavaSE application via USB. The Java Desktop application shows the changing graph in the computer monitor.</description>
+      <description>A computer based Oscilloscope simulation program. Shows the output of an oscillating AC circuit&amp;rsquo;s in computer monitor with an JavaSE based Application.</description>
     </item>
     
   </channel>

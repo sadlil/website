@@ -13,11 +13,41 @@ weight = 2
 detailed_list = true
 
 +++
+> ## **Site Reliability Engineer**
+[**Booking.com, Amsterdam, Netherlands.**](https://grab.com)<br>
+<div class="exp-work-duration">
+    <i class="fa fa-calendar" aria-hidden="true"></i>
+    <span class="exp-work-duration-date">Jul 2019 – Present</span>
+    <i class="fa fa-tasks" aria-hidden="true"></i>
+    <span class="exp-work-type">Full Time</span>
+</div>
+<div class="exp-work-tech">
+    <span>Go</span>
+    <span>Kubernetes</span>
+    <span>Docker</span>
+    <span>AWS</span>
+    <span>GCP</span>
+    <span>Bare Metal</span>
+    <span>Grafana</span>
+    <span>Prometheus</span>
+<div>
+<div class="exp-work-desc">
+Booking.com is a travel fare aggregator website and travel metasearch engine for lodging reservations. 
+Headquartered in Amsterdam.<br>
+The site has 28,425,726 listings in 148,470 destinations in 228 countries and territories worldwide.
+Each day more than 1,550,000 room nights are reserved on the site. The site is available in 43 languages.</div>
+<div class=exp-work-worked>
+ - Building, administering and ensuring reliability of a cloud native ecosystem <br>
+</div>
+
+----
+
+
 > ## **Senior Software Engineer, Backend**
 [**Grab, Singapore.**](https://grab.com)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>
-    <span class="exp-work-duration-date">Nov 2017 – Present</span>
+    <span class="exp-work-duration-date">Nov 2017 – Jun 2019</span>
     <i class="fa fa-tasks" aria-hidden="true"></i>
     <span class="exp-work-type">Full Time</span>
 </div>

@@ -12,10 +12,9 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Open Source",
-    "Data Science",
+    "Open Source Software",
+    "Cloud Computing",
     "Competitive Programming",
-    "Astro Physics",
     "Photography"
   ]
 
@@ -30,7 +29,7 @@ weight = 1
 
 In few words I am - <div style="margin-left:2%">
 
-> Full time *Software Engineer*, In Need *SRE*. Hobbyist Photographer.
+> Full time *Software Engineer*, *SRE*. Hobbyist Photographer.
 Loves to solves problems. Egar to learn new Technologies and plays with them.
 Loves to read, travel around and took photographs.
 
@@ -53,8 +52,8 @@ to have scalable and reliable services.
 
 I love to deploy things in **Kubernetes** by containerizing them with **docker**.
 Monitoring them with **Prometheus and Grafana**. Load balanced with **HAProxy**. For kubernetes
-i wrote a Ingress Controller backed by HAProxy called **voyager** while working in AppsCode.
-I Love to play with Kubernetes, Provision kube clusters in **AWS, Google cloud or DO**.
+i wrote a Ingress Controller backed by HAProxy called **voyager** while working for AppsCode.
+I Love to play with Kubernetes, Provision kube clusters in **AWS, GCP or DO**.
 
 I believe in testing, I try my best to cover things under **unit tests, e2e tests and
 integration tests**. I like to use CI/CD pipeline with **Jenkins**.

@@ -21,12 +21,12 @@ pygmentsStyle = "colorful"
 
 [params]
   name = "Kazi Sadlil Rhythom"
-  role = "Senior Software Engineer, Backend"
-  organization = "Grab, Singapore"
+  role = "Site Reliability Engineer"
+  organization = "Booking.com, Amsterdam, Netherlands"
   avatar = "sadlil.jpg"
   email = "sadlil.rhythm@gmail.com"
-  address = "Singapore"
-  phone = "+65 8450 1569"
+  address = "Amsterdam, Netherlands"
+  phone = "+31 6 4766 8356"
   skype = "sadlil.rhythm"
   telegram = "sadlil"
 
