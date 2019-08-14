@@ -12,19 +12,19 @@ case "$1" in
         hugo server --watch --source=src --disableFastRender
         ;;
 	build)
-	    hugo --source=src -d ./docs
+	    hugo --source=src
 	    cp -R src/public/. .
 		;;
 	deploy)
-	    cp -R src/public/. ./docs/
+	    cp -R src/public/. .
 	    git add --all
 		git commit -m "$2"
 		git push origin master
 		;;
 	push)
-		hugo --source=src -d ./docs
-		cp -R src/public/. ./docs/
-		rm -rf ./docs/resume
+		hugo --source=src
+		cp -R src/public/. .
+		rm -rf resume
 		git add --all
 		git commit -m "$2"
 		git push origin master
