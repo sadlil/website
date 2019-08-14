@@ -24,6 +24,7 @@ case "$1" in
 	push)
 		hugo --source=src
 		cp -R src/public/. .
+		rm -rf resume
 		git add --all
 		git commit -m "$2"
 		git push origin master
