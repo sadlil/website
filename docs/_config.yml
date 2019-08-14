@@ -3,7 +3,7 @@ description: Personal website for Sadlil Rhythom
 url: https://sadlil.com
 author: sadlil rhythom
 twitter:
-  username: iamsadlil
+  username: ksadlil
 enforce_ssl: sadlil.com
 plugins:
   - jekyll-seo-tag
