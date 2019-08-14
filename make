@@ -9,22 +9,21 @@ ROOT=$PWD
 
 case "$1" in
     serve)
-        hugo server --watch --source=src --disableFastRender
+        hugo server --watch --source=src -d=docs --disableFastRender
         ;;
 	build)
-	    hugo --source=src -d ./docs
-	    cp -R src/public/. .
+	    hugo --source=src -d=docs
+	    cp -R src/public/. docs/
 		;;
 	deploy)
-	    cp -R src/public/. ./docs/
+	    cp -R src/public/. docs/
 	    git add --all
 		git commit -m "$2"
 		git push origin master
 		;;
 	push)
-		hugo --source=src -d ./docs
-		cp -R src/public/. ./docs/
-		rm -rf ./docs/resume
+		hugo --source=src -d=docs
+		cp -R src/public/. docs/
 		git add --all
 		git commit -m "$2"
 		git push origin master
