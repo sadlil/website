@@ -24,7 +24,7 @@ autolink = true
           </a>
         </li>
         <li>
-          <a href="//twitter.com/iamsadlil" target="_blank">
+          <a href="//twitter.com/ksadlil" target="_blank">
             <i class="fa fa-twitter big-icon"></i>
           </a>
         </li>
