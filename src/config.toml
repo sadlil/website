@@ -198,7 +198,7 @@ pygmentsStyle = "colorful"
 
 [[menu.main]]
   name = "Resume"
-  url = "https://sadlil.com/downloads/sadlil-resume-v3.0.1.pdf"
+  url = "https://sadlil.com/downloads/sadlil-resume-v4.0.0.pdf"
   weight = 21
 
 [[menu.main]]
