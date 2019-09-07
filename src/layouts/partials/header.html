@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
   {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
   {{ with .Site.Params.role }}<meta name="description" content="{{ . }}">{{ end }}
 
@@ -36,8 +36,9 @@
 
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
-  <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
-  <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  {{ with .OutputFormats.Get "RSS" }}
+    <link rel="alternate" href="{{.RelPermalink}}" type="application/rss+xml" title="{{site.Title}}">
+  {{ end }}
 
   <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
   <link rel="apple-touch-icon" type="image/png" href="{{ "/img/apple-touch-icon.png" | relURL }}">
