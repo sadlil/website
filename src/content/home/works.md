@@ -39,9 +39,9 @@ The site has 28,425,726 listings in 148,470 destinations in 228 countries and te
 Each day more than 1,550,000 room nights are reserved on the site. The site is available in 43 languages.</div>
 <div class=exp-work-worked>
  - Building, administering and ensuring reliability of a cloud native ecosystem <br>
- - Maintaining Service SLO and SLA for hybrid Kuberentes cluster
- - Building tools to improve monitoring and visibility around the hybrid kubernetes cluster
- - Automating server toils and improves team productivity. 
+ - Maintaining Service SLO and SLA for hybrid Kuberentes cluster <br>
+ - Building tools to improve monitoring and visibility around the hybrid kubernetes cluster <br>
+ - Automating server toils and improves team productivity <br>
 </div>
 
 ----
@@ -67,9 +67,6 @@ Grab is more than just the leading ride-hailing and mobile payments app in South
 Grab use data and technology to improve everything from transportation to payments and logistics across a
 region of more than 620 million people. Working with governments, drivers, passengers, and charities,
 Grab aim to unlock the true potential of the region by solving problems that hinder progress.<br>
-Grab began as a taxi-hailing app in 2012, but has extended its product platform to
-include private car services (GrabCar & GrabShare), motorcycle taxis (GrabBike), social carpooling (GrabHitch)
-and last mile delivery (GrabExpress).</div>
 <div class=exp-work-worked>
  - Designed, Architect and Build several micro services to divide and scale workloads <br>
  - Worked as an team **SRE** to supports team's scalable cloud infrastructure <br>
