@@ -30,6 +30,7 @@ detailed_list = true
     <span>Bare Metal</span>
     <span>Grafana</span>
     <span>Prometheus</span>
+    <span>Puppet</span>
 <div>
 <div class="exp-work-desc">
 Booking.com is a travel fare aggregator website and travel metasearch engine for lodging reservations. 
@@ -38,6 +39,9 @@ The site has 28,425,726 listings in 148,470 destinations in 228 countries and te
 Each day more than 1,550,000 room nights are reserved on the site. The site is available in 43 languages.</div>
 <div class=exp-work-worked>
  - Building, administering and ensuring reliability of a cloud native ecosystem <br>
+ - Maintaining Service SLO and SLA for hybrid Kuberentes cluster
+ - Building tools to improve monitoring and visibility around the hybrid kubernetes cluster
+ - Automating server toils and improves team productivity. 
 </div>
 
 ----
@@ -60,15 +64,12 @@ Each day more than 1,550,000 room nights are reserved on the site. The site is a
 <div>
 <div class="exp-work-desc">
 Grab is more than just the leading ride-hailing and mobile payments app in Southeast Asia.
-We use data and technology to improve everything from transportation to payments and logistics across a
+Grab use data and technology to improve everything from transportation to payments and logistics across a
 region of more than 620 million people. Working with governments, drivers, passengers, and charities,
-we aim to unlock the true potential of the region by solving problems that hinder progress.<br><br>
+Grab aim to unlock the true potential of the region by solving problems that hinder progress.<br>
 Grab began as a taxi-hailing app in 2012, but has extended its product platform to
 include private car services (GrabCar & GrabShare), motorcycle taxis (GrabBike), social carpooling (GrabHitch)
-and last mile delivery (GrabExpress). We are focused on pioneering new commuting alternatives for
-drivers and passengers with an emphasis on speed, safety, and reliability. Currently we offer services
-in Singapore, Indonesia, Philippines, Malaysia, Thailand and Vietnam; however, we also have R&D offices
-in Bangalore, Beijing, & Seattle.</div>
+and last mile delivery (GrabExpress).</div>
 <div class=exp-work-worked>
  - Designed, Architect and Build several micro services to divide and scale workloads <br>
  - Worked as an team **SRE** to supports team's scalable cloud infrastructure <br>
