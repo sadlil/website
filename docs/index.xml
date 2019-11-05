@@ -6,8 +6,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Kazi Sadlil Rhythom</copyright>
-    <lastBuildDate>Sat, 21 Apr 2018 10:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 10:30:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Bucket List</title>
+      <link>https://sadlil.com/blog/bucket-list/</link>
+      <pubDate>Tue, 05 Nov 2019 10:30:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/blog/bucket-list/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;One Bolsover having hung himself from a beam while standing on a pail, or bucket, kicked this vessel away in order to pry
+into futurity and it was all UP with him from that moment: Finis.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A list of things that one has not done before but wants to do before dying.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;!-- --&gt;&lt;/th&gt;
+&lt;th&gt;&lt;!-- --&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;- Work for Google&lt;/td&gt;
+&lt;td&gt;- Live a week alone (or may be with a few friends) on a remote island&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;- &lt;del&gt;Smoke Amsterdam&amp;rsquo;s weed&lt;/del&gt;&lt;/td&gt;
+&lt;td&gt;- Jump from a plane with a parachute&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;- Buy a super car from Tesla&lt;/td&gt;
+&lt;td&gt;- Stay a night in a igloo&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;- &lt;del&gt;Be at Eiffel Tower at midnight&lt;/del&gt;&lt;/td&gt;
+&lt;td&gt;- Ride a private airplane&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;- Drive a race car in a race&lt;/td&gt;
+&lt;td&gt;- Ride a live volcano&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;- &lt;del&gt;Drink Vodka Martini Shaken&lt;/del&gt;&lt;/td&gt;
+&lt;td&gt;- &lt;del&gt;Chill on a beach in Bali&lt;/del&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;- Learn to Play the violin&lt;/td&gt;
+&lt;td&gt;- &lt;del&gt;Taste Kopi Luwak&lt;/del&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
     
     <item>
       <title>How Do We Get Rid of a InnoDB Deadlock</title>
