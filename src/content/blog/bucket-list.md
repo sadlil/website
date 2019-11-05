@@ -6,9 +6,12 @@ title = "The Bucket List"
 math = true
 summary = """
 One Bolsover having hung himself from a beam while standing on a pail, or bucket, 
-kicked this vessel away in order to pry into futurity and it was all UP with him from that moment: Finis. <br>
+kicked this vessel away in order to pry into futurity and it was all UP with him from that moment.
+<br>
+Finis. <br>
 <br>
 A list of things that one has not done before but wants to do before dying.
+<br>
 """
 +++
 

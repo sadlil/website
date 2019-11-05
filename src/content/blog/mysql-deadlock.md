@@ -5,6 +5,8 @@ tags = ["software engineering", "database", "mysql", "deadlock"]
 title = "How Do We Get Rid of a InnoDB Deadlock"
 math = true
 summary = """
+Last time i heard the word **deadlock** i was in college. I read the definition of deadlock in text books. I was so lucky
+or who knows may be careful that i didn't encounter deadlock until now.
 """
 +++
 
