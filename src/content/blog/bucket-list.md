@@ -23,14 +23,14 @@ A list of things that one has not done before but wants to do before dying.
 
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
-| - Work for Google | - Live a week alone (or may be with a few friends) on a remote island |
+| - ~~Work for Google~~ | - Live a week alone (or may be with a few friends) on a remote island |
 | - ~~Smoke Amsterdam's weed~~ | - Jump from a plane with a parachute |
 | - Buy a super car from Tesla | - Stay a night in a igloo |
 | - ~~Be at Eiffel Tower at midnight~~ | - Ride a private airplane |
 | - Drive a race car in a race | - Ride a live volcano |
 | - ~~Drink Vodka Martini Shaken~~| - ~~Chill on a beach in Bali~~ |
 | - Learn to Play the violin | - ~~Taste Kopi Luwak~~ |
-| - See the Coliseum in Rome | - Stand in the Sistine Chapel |
+| - ~~See the Coliseum in Rome~~ | - ~~Stand in the Sistine Chapel~~ |
 | - Visit the Great Pyramid of Giza in Egypt | - Walk down the Great Wall of China |
 | - ~~Go to the Notre Dame Cathedral in Paris~~| - ~~Learn how to swim~~ |
 

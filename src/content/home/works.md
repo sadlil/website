@@ -13,11 +13,35 @@ weight = 2
 detailed_list = true
 
 +++
-> ## **Site Reliability Engineer**
-[**Booking.com, Amsterdam, Netherlands.**](https://grab.com)<br>
+> ## **Software Engineer, Site Reliability Engineering**
+[**Google, Dublin, Ireland.**](https://google.com)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>
-    <span class="exp-work-duration-date">Jul 2019 – Present</span>
+    <span class="exp-work-duration-date">Jan 2020 – Present</span>
+    <i class="fa fa-tasks" aria-hidden="true"></i>
+    <span class="exp-work-type">Full Time</span>
+</div>
+<div class="exp-work-tech">
+    <span>Go</span>
+    <span>SRE</span>
+    <span>Reliability</span>
+    <span>Design</span>
+<div>
+<div class="exp-work-desc">
+Google LLC is an American multinational technology company that specializes in
+Internet-related services and products, which include online advertising technologies,
+a search engine, cloud computing, software, and hardware.</div>
+<div class=exp-work-worked>
+ - Building, administering and ensuring reliability of googlewide AuthN/AuthZ systems <br>
+</div>
+
+----
+
+> ## **Site Reliability Engineer**
+[**Booking.com, Amsterdam, Netherlands.**](https://booking.com)<br>
+<div class="exp-work-duration">
+    <i class="fa fa-calendar" aria-hidden="true"></i>
+    <span class="exp-work-duration-date">Jul 2019 – Dec 2019</span>
     <i class="fa fa-tasks" aria-hidden="true"></i>
     <span class="exp-work-type">Full Time</span>
 </div>

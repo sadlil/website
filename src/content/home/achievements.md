@@ -10,6 +10,14 @@ widget = "achievements"
 weight = 5
 
 +++
+### 2020
+> **Joined Google As a Software Engineer, Site Reliability Engineering**
+<div class="achievement-details">- Working on multi cloud and bare metal kubernetes container architecture</div>
+<hr>
+**Moved to Dublin, Ireland**<br>
+
+---
+
 ### 2019
 > **Joined Booking.com As a Site Reliability Engineer**
 <div class="achievement-details">- Working on multi cloud and bare metal kubernetes container architecture</div>

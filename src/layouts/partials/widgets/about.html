@@ -7,14 +7,13 @@
     <div id="profile">
 
       {{ with $.Site.Params.avatar }}
-      <div class="portrait" itemprop="image"
-           style="background-image: url('{{ "/img/" | relURL }}{{ . }}');">
+      <div class="portrait" itemprop="image" style="background-image: url('{{ "/img/" | relURL }}{{ . }}');">
       </div>
       {{ end }}
 
       <div class="portrait-title">
         <h2 itemprop="name">{{ $.Site.Params.name }}</h2>
-        <h3 itemprop="jobTitle">{{ $.Site.Params.role }}</h3>
+        <h3 itemprop="jobTitle" style="font-size: 16px;">{{ $.Site.Params.role }}</h3>
         {{ with $.Site.Params.organization }}<h3 itemprop="worksFor">{{ . }}</h3>{{ end }}
       </div>
 
@@ -30,11 +29,12 @@
       </ul>
       <ul>
         <div aria-hidden="true" style="font-size: 11px;">
-          From: <b>Bangladesh</b> | Lives in: <b>Amsterdam, Netherlands</b>
+          From: <b>Bangladesh</b> | Lives in: <b>Dublin, Ireland</b>
         </div>
       </ul>
       <ul style="font-size: 8px">
-        Powered by <a href="http://gohugo.io" target="_blank">Hugo</a> & Hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>.
+        Powered by <a href="http://gohugo.io" target="_blank">Hugo</a> & Hosted with <a href="https://pages.github.com/"
+          target="_blank">Github Pages</a>.
       </ul>
     </div>
   </div>

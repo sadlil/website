@@ -3,7 +3,6 @@ serve:
 
 build:
 	./hack/bin/hugo -v --log --source=src -d=$(PWD)/docs --gc --forceSyncStatic --cleanDestinationDir
-	cp -R src/public/ docs/
 	cp CNAME docs/CNAME
 
 MSG ?= "Update site"
