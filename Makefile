@@ -9,5 +9,5 @@ build:
 MSG ?= "Update site"
 deploy: build
 	git add --all
-	git commit -m "$(MSG)"
+	git commit -m $(MSG)
 	git push
