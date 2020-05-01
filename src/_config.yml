@@ -1,0 +1,15 @@
+title: "Sadlil's"
+description: Personal website for Sadlil Rhythom
+url: https://sadlil.com
+author: sadlil rhythom
+twitter:
+  username: ksadlil
+enforce_ssl: sadlil.com
+plugins:
+  - jekyll-seo-tag
+social:
+  name: Sadlil Rhythom
+  links:
+    - https://twitter.com/iamsadlil
+    - https://www.linkedin.com/in/sadlil
+    - https://github.com/sadlil
