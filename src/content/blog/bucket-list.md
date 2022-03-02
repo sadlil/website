@@ -25,7 +25,7 @@ A list of things that one has not done before but wants to do before dying.
 |-------------|-------------|
 | - ~~Work for Google~~ | - Live a week alone (or may be with a few friends) on a remote island |
 | - ~~Smoke Amsterdam's weed~~ | - Jump from a plane with a parachute |
-| - Buy a super car from Tesla | - Stay a night in a igloo |
+| - Buy a super car | - Stay a night in a igloo |
 | - ~~Be at Eiffel Tower at midnight~~ | - Ride a private airplane |
 | - Drive a race car in a race | - Ride a live volcano |
 | - ~~Drink Vodka Martini Shaken~~| - ~~Chill on a beach in Bali~~ |

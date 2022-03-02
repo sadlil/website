@@ -24,10 +24,10 @@ pygmentsStyle = "colorful"
   role = "Software Engineer, Site Reliability Engineering"
   organization = "Google, Dublin, Ireland"
   avatar = "sadlil.jpg"
-  email = "sadlil.rhythm@gmail.com"
+  email = "kzirtm@gmail.com"
   address = "Dublin, Ireland"
-  phone = "+31 6 4766 8356"
-  skype = "sadlil.rhythm"
+  phone = "+353-0873537624"
+  github = "sadlil"
   telegram = "sadlil"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -154,7 +154,7 @@ pygmentsStyle = "colorful"
   [[params.social]]
       icon = "facebook"
       icon_pack = "fa"
-      link = "https://www.facebook.com/ksr.EROR"
+      link = "https://www.facebook.com/ksadlil/"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -198,7 +198,7 @@ pygmentsStyle = "colorful"
 
 [[menu.main]]
   name = "Resume"
-  url = "https://sadlil.com/downloads/sadlil-resume-v4.0.0.pdf"
+  url = "https://sadlil.com/downloads/sadlil-resume-v5.0.0.pdf"
   weight = 21
 
 [[menu.main]]
