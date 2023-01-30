@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sadlil&#39;s</title>
+    <link>https://sadlil.com/tags/</link>
+    <description>Recent content in Tags on Sadlil&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kazi Sadlil Rhythom</copyright>
+    <lastBuildDate>Tue, 05 Nov 2019 10:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sadlil.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>life</title>
+      <link>https://sadlil.com/tags/life/</link>
+      <pubDate>Tue, 05 Nov 2019 10:30:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>https://sadlil.com/tags/database/</link>
+      <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deadlock</title>
+      <link>https://sadlil.com/tags/deadlock/</link>
+      <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/tags/deadlock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://sadlil.com/tags/mysql/</link>
+      <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software engineering</title>
+      <link>https://sadlil.com/tags/software-engineering/</link>
+      <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acm</title>
+      <link>https://sadlil.com/tags/acm/</link>
+      <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/tags/acm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bangla</title>
+      <link>https://sadlil.com/tags/bangla/</link>
+      <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/tags/bangla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>number theory</title>
+      <link>https://sadlil.com/tags/number-theory/</link>
+      <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/tags/number-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prime</title>
+      <link>https://sadlil.com/tags/prime/</link>
+      <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/tags/prime/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

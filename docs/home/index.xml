@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Sadlil&#39;s</title>
+    <link>https://sadlil.com/home/</link>
+    <description>Recent content in Homes on Sadlil&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kazi Sadlil Rhythom</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sadlil.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://sadlil.com/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/about/</guid>
+      <description>Software Engineer and Tech Lead at Google. Building Software to Automate Network Design, Delivery and Monitoring at Planet Scale.
+Has experience in designing and building highly scalable and reliable distributed systems, utilizing cloud computing technologies, and optimizing low latency communication. Software Engineer but with a extensive SRE mindset, keeping up with the best practices in ensuring the availability and performance of large-scale systems.
+ Personality ENTJ-A (The Commander)</description>
+    </item>
+    
+    <item>
+      <title>Experiences</title>
+      <link>https://sadlil.com/home/works/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/works/</guid>
+      <description>Software Engineer, Tech Lead - Global Networking Google, Ireland.
+ May 2022 – Present  Full Time  Go Software Defined Networking  Working to Deliver Google&amp;rsquo;s NextGEN Global Networking Backbone. After several years working as a Site Reliability Engineer, moved back to doing Software Engineering again. Building Software to Automatically Design, Deploy and Monitor Planet Scale Software Defined Networks for Google Global Networking.   - - -</description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://sadlil.com/home/skills/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/skills/</guid>
+      <description>Go C++ Python  Docker Kubernetes  ElasticSearch MySQL PgSQL Presto  GCP AWS  gRPC Protocol Buffer  Kafka SQS  Prometheus Grafana Loki    </description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://sadlil.com/home/blogs/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://sadlil.com/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Achievements</title>
+      <link>https://sadlil.com/home/achievements/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/achievements/</guid>
+      <description>2022  Became Tech Lead of Network Delivery Team - Designing software to automate delivery of Planet Scale Network  Changed Role to be a Software Engineer for Google Global Networking Team
+ 2020  Joined Google As a Software Engineer, Site Reliability Engineering - Managing Google&amp;rsquo;s authentication and authorization Infra  Moved to Dublin, Ireland
+ 2019  Joined Booking.com As a Site Reliability Engineer - Working on multi cloud and bare metal kubernetes container architecture  Moved to Amsterdam, Netherlands</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://sadlil.com/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/home/contact/</guid>
+      <description>                               </description>
+    </item>
+    
+  </channel>
+</rss>

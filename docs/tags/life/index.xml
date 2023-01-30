@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>life on Sadlil&#39;s</title>
+    <link>https://sadlil.com/tags/life/</link>
+    <description>Recent content in life on Sadlil&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kazi Sadlil Rhythom</copyright>
+    <lastBuildDate>Tue, 05 Nov 2019 10:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sadlil.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Bucket List</title>
+      <link>https://sadlil.com/blog/bucket-list/</link>
+      <pubDate>Tue, 05 Nov 2019 10:30:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/blog/bucket-list/</guid>
+      <description>One Bolsover having hung himself from a beam while standing on a pail, or bucket,
+kicked this vessel away in order to pry into futurity and it was all UP with him from that moment.
+&lt;br&gt;
+Finis. &lt;br&gt;
+&lt;br&gt;
+A list of things that one has not done before but wants to do before dying.
+&lt;br&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

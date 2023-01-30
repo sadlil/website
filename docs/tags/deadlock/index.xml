@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deadlock on Sadlil&#39;s</title>
+    <link>https://sadlil.com/tags/deadlock/</link>
+    <description>Recent content in deadlock on Sadlil&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kazi Sadlil Rhythom</copyright>
+    <lastBuildDate>Sat, 21 Apr 2018 10:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sadlil.com/tags/deadlock/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How Do We Get Rid of a InnoDB Deadlock</title>
+      <link>https://sadlil.com/blog/mysql-deadlock/</link>
+      <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/blog/mysql-deadlock/</guid>
+      <description>Last time i heard the word &lt;strong&gt;deadlock&lt;/strong&gt; i was in college. I read the definition of deadlock in text books. I was so lucky
+or who knows may be careful that i didn&amp;rsquo;t encounter deadlock until now.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Sadlil&#39;s</title>
+    <link>https://sadlil.com/publication/</link>
+    <description>Recent content in Publications on Sadlil&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Kazi Sadlil Rhythom</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sadlil.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>False Alarm Detection in Wireless Body Sensor Network using Adaptive and Intelligent Approach</title>
+      <link>https://sadlil.com/publication/false-alarm/</link>
+      <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://sadlil.com/publication/false-alarm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
