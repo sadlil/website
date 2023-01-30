@@ -20,6 +20,9 @@ tags = ["professional"]
 # Does the project detail page use math formatting?
 math = false
 
+
+draft = true
+
 +++
 <div class="row">
 <div class="col-xs-12 col-md-7">
