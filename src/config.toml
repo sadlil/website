@@ -21,8 +21,8 @@ pygmentsStyle = "colorful"
 
 [params]
   name = "Kazi Sadlil Rhythom"
-  role = "Software Engineer, Site Reliability Engineering"
-  organization = "Google, Dublin, Ireland"
+  role = "Software Engineer, Tech Lead"
+  organization = "Google, Ireland"
   avatar = "sadlil.jpg"
   email = "kzirtm@gmail.com"
   address = "Dublin, Ireland"

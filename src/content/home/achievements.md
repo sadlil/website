@@ -10,9 +10,15 @@ widget = "achievements"
 weight = 5
 
 +++
+### 2022
+> **Became Tech Lead of Network Delivery Team**
+<div class="achievement-details">- Designing software to automate delivery of Planet Scale Network</div>
+<hr>
+**Changed Role to be a Software Engineer for Google Global Networking Team**<br>
+
 ### 2020
 > **Joined Google As a Software Engineer, Site Reliability Engineering**
-<div class="achievement-details">- Working on multi cloud and bare metal kubernetes container architecture</div>
+<div class="achievement-details">- Managing Google's authentication and authorization Infra</div>
 <hr>
 **Moved to Dublin, Ireland**<br>
 
@@ -35,9 +41,6 @@ weight = 5
 - Designed `unitsdk` for external teams to integrate with the service, being used without complain. <br></div>
 <hr>
 > **Learned Swimming**<br>
-<hr>
-> **Started Building gophersbd/ormpb - golang orm implementation based on protobuf**<br>
-<div class="achievement-details">- [gophersbd/ormpb](https://github.com/gophersbd/ormpb)<br></div>
 <hr>
 > **Learned How to ride a Bicycle**<br>
 
@@ -75,10 +78,6 @@ weight = 5
 
 ---
 ### 2014
-> **Became Expert in CodeForces**<br>
-<div class="achievement-details">- [Gained +296 rating points taking place 131](http://codeforces.com/bestRatingChanges/438727) <br>
-- [RankList](http://codeforces.com/contest/460/standings/participant/2829534#p2829534)</div>
-<hr>
 **19th Position, National Collegiate programming contest (NCPC), 2014**<br>
 <div class="achievement-details">- [Rank List](https://algo.codemarshal.com/contests/bd-ncpc-2014/standings)</div>
 <hr>

@@ -21,14 +21,5 @@
       <description>An automated billing software built in Bit Mascot. Manages automated invoice and Recurring Billing</description>
     </item>
     
-    <item>
-      <title>WebCommander</title>
-      <link>https://sadlil.com/project/webcommander/</link>
-      <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://sadlil.com/project/webcommander/</guid>
-      <description>WebCommander has everything you need to deploy and run a successful online store. Much more than an eCommerce CMS</description>
-    </item>
-    
   </channel>
 </rss>
