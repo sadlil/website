@@ -14,7 +14,7 @@ detailed_list = true
 
 +++
 
-> ## **Software Engineer, Tech Lead - Global Networking**
+> ## **Software Engineer, Tech Lead - Global Network**
 [**Google, Ireland.**](https://google.com)<br>
 <div class="exp-work-duration">
     <i class="fa fa-calendar" aria-hidden="true"></i>
@@ -34,6 +34,13 @@ After several years working as a Site Reliability Engineer, moved back to doing 
 Building Software to Automatically Design, Deploy and Monitor Planet Scale Software Defined Networks for Google Global Networking.
 </div>
 <div class=exp-work-worked>
+- Leading the Planning and Design of Network Delivery Orchestration System for Google Enterprise Network.<br>
+- Designing Software System to continuously monitor Network compliance checks.<br>
+- Work closely with Network Engineers to understand the network designs and define the software representations of the design.<br>
+- Leading a team of 6 people to implement the alpha version of the Delivery Orchestration system providing technical guidance.<br>
+- Making decisions about crucial Technical Architecture and tools selection.<br>
+- Maintain continues communications with various stake holders and translate businees requirements to Technical requirements.<br>
+- Guide 6 engineer to grow on their technical carrer ladder, resolving conflicts and blockers.<br>
 </div>
 <div>- - -</div>
 ## **Software Engineer, Site Reliability Engineering**
@@ -51,11 +58,17 @@ Building Software to Automatically Design, Deploy and Monitor Planet Scale Softw
     <span>Design</span>
 <div>
 <div class="exp-work-desc">
-Worked in Access SRE team, managing and maintaining Google's authentication and authorization Infra. 
-Delivering Google's Zero Trust BeyondCorp vision for both enterprise and cloud users, With a strong 
-focus on security and reliability.
+Worked in Access SRE team, managing and maintaining Google's authentication and authorization Infra.
+Delivering Google's Zero Trust BeyondCorp vision for both enterprise and cloud users, With a strong focus on security and reliability.
 </div>
 <div class=exp-work-worked>
+- Owner and Lead of Icepick and Uplink - Google internal solution for nonstandard application to adopt Beyondcorp Zero Trust Security model.<br>
+- Actively lead the SRE involvement in the implementation of Cloud version of the service - Applink & AppConnector.<br>
+- Designed and Implemented Reliable Web-socket Transport model for Icepick, Increasing service reliability by 70%.<br>
+- Implemented auto scaling system for Beyondcorp Infra, to support Googlers access to Google Enterprise Infra in the increasing WFH demands in Covid.<br>
+- Designed an automatic certificate renewal systems for 10K DMZ machines.<br>
+- Designed a continuous metric collection system for CLI tools from user machines.<br>
+- Member of kubernetes/minikube core team as 20% SWE Contributor.<br>
 </div>
 
 ----
@@ -79,11 +92,11 @@ focus on security and reliability.
 Site Reliability Engineer (SRE) for Core Infrastructure.
 </div>
 <div class=exp-work-worked>
- - Building tools to administer multi cloud Kubernetes Infrastructures, Integrate it with development pipelines.<br>
-- Developing monitoring pipelines using Prometheus, Grafana and Elasticsearch.<br>
-- Managing both on-prem and hybrid cloud environments with Terraform.<br>
-- Maintaining a large-scale monitoring system, ensuring SLOs and SLAs are met.<br>
-- Performing root cause analysis and implementing preventative measures to minimize disruptions.<br>
+- Built tools to Administer multi cloud Kubernetes Infrastructures, Integrate it with development pipelines. Improved 80% Developer experience with automated application onboarding, reduced 35% of turnup time.<br>
+- Developed and Maintained monitoring pipelines using Prometheus, Grafana and Elasticsearch. The pipeline thousands of Kubernetes components in real time to ensure SLOs are meet.<br> 
+- Managed both on-prem and cloud Kubernetes environments by writing Infrastructure as Code.<br> 
+- Performed root cause analysis and implementing preventative measures to minimize disruptions.<br>
+- Designed an automation platform to support DC rack maintenance for on-prem Kubernetes nodes, automatically drains and undrains a node for maintenance.<br>
 </div>
 
 ----
@@ -105,15 +118,14 @@ Site Reliability Engineer (SRE) for Core Infrastructure.
     <span>Presto</span>
 <div>
 <div class="exp-work-desc">
-As a Software Engineer for the Supply Shaping team, I am instrumental in driving the digital transformation of South East Asia<br>
+As a Software Engineer for the Supply Shaping team, I am instrumental in driving the digital transformation of South East Asia. My responsibilities include:<br>
 <div class=exp-work-worked>
- - Designing, architecting, and building microservices to divide and scale workloads effectively.<br>
-- Acting as a liaison for the SRE team to support the team's scalable cloud infrastructure.<br>
+- Designing, architecting, and building microservices to support 10M+ requests per day to support Grab Supply Shaping Infra.<br>
+- SRE liaison to support the reliability of team's cloud infrastructure.<br>
 - Participating in the OnCall rotation and Engineering Postmortems process to ensure high availability and scalability of the systems.<br>
 - Collaborating with multiple teams and PMs to align software systems with business requirements.<br>
-- Participating in the design and implementation process for scalable backend services for the Core Supply Shaping team.<br>
-- Supporting and scaling systems to handle millions of requests.<br>
-- Actively engaging with making improvements to the systems to ensure optimal performance.<br>
+- Contributing in the design and implementation process for scalable backend services for the Core Supply Shaping team.<br>
+- Lead a small team of 2 to design and implement a realtime event processing pipeline, processing 15M events per day.<br>
 </div>
 
 ----
@@ -138,11 +150,12 @@ As a Software Engineer for the Supply Shaping team, I am instrumental in driving
 Building tools to make smother developing, testing, deploying and monitoring containerised application.<br>
 </div>
 <div class=exp-work-worked>
- - Joined the company as #3 employee in fast growing environment.<br>
-- Designed and Implemented the initial version of [voyager](https://github.com/voyagermesh/voyager) - an Ingress controller for Kubernetes.<br>
+ - Joined the company as #3 employee in a fast growing startup environment.<br>
+- Designed and Implemented the initial version of https://github.com/voyagermesh/voyager - an Ingress controller for Kubernetes.<br>
+- Led a team of 4 to design & implement multiple kubernetes operator such as KubeDB, Kubed etc.<br>
 - Leading the design and implement process of developing core features.<br>
-- Design and Implemented gRPC based API server and microservices. <br>
-- Designed and build unified Artifact repository for docker, maven, npm etc.<br>
+- Design and Implemented gRPC based API server and microservices.<br>
+- Designed and build unified artifact repository for docker, maven, npm and composer etc.<br>
 - Contributed to open source projects including Kubernetes, Jenkins, Docker.<br>
 </div>
 

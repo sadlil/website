@@ -78,7 +78,7 @@ weight = 5
 
 ---
 ### 2014
-**19th Position, National Collegiate programming contest (NCPC), 2014**<br>
+> **19th Position, National Collegiate programming contest (NCPC), 2014**<br>
 <div class="achievement-details">- [Rank List](https://algo.codemarshal.com/contests/bd-ncpc-2014/standings)</div>
 <hr>
 **7th Position - International Contest on Programming and System Development (ICPSD)**<br>
