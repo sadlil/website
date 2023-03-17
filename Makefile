@@ -4,6 +4,7 @@ serve:
 build:
 	./hack/bin/hugo -v --log --source=src -d=$(PWD)/docs --gc --forceSyncStatic --cleanDestinationDir
 	cp -R downloads/ docs/downloads
+	cp -R redirects/samples docs/samples
 	cp CNAME docs/CNAME
 
 MSG ?= "Update site"
