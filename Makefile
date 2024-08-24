@@ -6,6 +6,7 @@ build:
 	cp -R downloads/ docs/downloads
 	cp -R redirects/samples docs/samples
 	cp CNAME docs/CNAME
+	cp .nojekyll docs/.nojekyll
 
 MSG ?= "Update site"
 deploy: build
