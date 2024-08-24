@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Sadlil&#39;s</title>
+    <title>Homes on Sadlil Rhythom</title>
     <link>https://sadlil.com/home/</link>
-    <description>Recent content in Homes on Sadlil&#39;s</description>
+    <description>Recent content in Homes on Sadlil Rhythom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 Kazi Sadlil Rhythom</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2024 Kazi Sadlil Rhythom</copyright>
+    <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sadlil.com/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,12 +15,13 @@
     <item>
       <title></title>
       <link>https://sadlil.com/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/home/about/</guid>
-      <description>Software Engineer and Tech Lead at Google. Building Software to Automate Network Design, Delivery and Monitoring at Planet Scale.
-Has experience in designing and building highly scalable and reliable distributed systems, utilizing cloud computing technologies, and optimizing low latency communication. Software Engineer but with a extensive SRE mindset, keeping up with the best practices in ensuring the availability and performance of large-scale systems.
- Personality ENTJ-A (The Commander)</description>
+      <description>I don&amp;rsquo;t Believe in Magic.
+Behind every seemingly magical feat lies careful planning, meticulous design, effective collaboration, and skilled execution. Software Engineer and Tech Lead at Google.
+Currently building Software Echo-system that powers the Design, Deployment, Monitoring, and Operation of Google&amp;rsquo;s Planet Scale Enterprise Network. Software Engineer with extensive SRE expertise.
+Have proven track record of designing and implementing scalable, reliable large distributed systems in cloud environments. Deep understanding of best practices for ensuring the availability and performance of mission-critical systems at scale.</description>
     </item>
     
     <item>
@@ -29,8 +30,8 @@ Has experience in designing and building highly scalable and reliable distribute
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/home/works/</guid>
-      <description>Software Engineer, Tech Lead - Global Network Google, Ireland.
- May 2022 – Present  Full Time  Go Software Defined Networking  Working to Deliver Google&amp;rsquo;s NextGEN Global Networking Backbone. After several years working as a Site Reliability Engineer, moved back to doing Software Engineering again. Building Software to Automatically Design, Deploy and Monitor Planet Scale Software Defined Networks for Google Global Networking.  - Leading the Planning and Design of Network Delivery Orchestration System for Google Enterprise Network.</description>
+      <description>Senior Software Engineer, Tech Lead Google, Ireland.   March 2023 – Present  Full Time  Golang Tech Lead Software Architecture Intent Driven Networking  Leading the Software and automation echo-system to ensure Security, Safety and Compliance of Google&amp;rsquo;s Planet Scale Enterprise Networking.   
+Software Engineer, Tech Lead - Google Enterprise Network Google, Ireland.   April 2022 – Feb 2023  Full Time  Golang Tech Lead Software Architecture  Software Engineer and Tech Lead at Google Enterprise Networking.</description>
     </item>
     
     <item>
@@ -39,7 +40,7 @@ Has experience in designing and building highly scalable and reliable distribute
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/home/skills/</guid>
-      <description>Go C++ Python  Docker Kubernetes  ElasticSearch MySQL PgSQL Presto  GCP AWS  gRPC Protocol Buffer  Kafka SQS  Prometheus Grafana Loki    </description>
+      <description>Go C++  gRPC Protocol Buffer Docker Kubernetes GCP AWS  ElasticSearch MySQL PostgreSQL Presto Kafka SQS  Prometheus Grafana Loki  Software Architecture Software Desing  Software Defined Networking Intent Driven Networking  Technical Leadership Mentoring Teaching   </description>
     </item>
     
     <item>
@@ -61,23 +62,12 @@ Has experience in designing and building highly scalable and reliable distribute
     </item>
     
     <item>
-      <title>Achievements</title>
-      <link>https://sadlil.com/home/achievements/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://sadlil.com/home/achievements/</guid>
-      <description>2022  Became Tech Lead of Network Delivery Team - Designing software to automate delivery of Planet Scale Network  Changed Role to be a Software Engineer for Google Global Networking Team
- 2020  Joined Google As a Software Engineer, Site Reliability Engineering - Managing Google&amp;rsquo;s authentication and authorization Infra  Moved to Dublin, Ireland
- 2019  Joined Booking.com As a Site Reliability Engineer - Working on multi cloud and bare metal kubernetes container architecture  Moved to Amsterdam, Netherlands</description>
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>https://sadlil.com/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://sadlil.com/home/contact/</guid>
-      <description>                               </description>
+      <description>                              </description>
     </item>
     
   </channel>

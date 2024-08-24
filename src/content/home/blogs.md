@@ -18,7 +18,7 @@ tags = []
 view = 1
 
 # Number of posts to list.
-count = 4
+count = 2
 
 +++
 

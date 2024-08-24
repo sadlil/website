@@ -1,6 +1,6 @@
 baseurl = "https://sadlil.com/"
-title = "Sadlil's"
-copyright = "&copy; 2019 Kazi Sadlil Rhythom"
+title = "Sadlil Rhythom"
+copyright = "&copy; 2024 Kazi Sadlil Rhythom"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
@@ -17,144 +17,149 @@ defaultContentLanguageInSubdir = false
 pygmentsStyle = "colorful"
 
 [blackfriday]
-  hrefTargetBlank = true
+hrefTargetBlank = true
 
 [params]
-  name = "Kazi Sadlil Rhythom"
-  role = "Software Engineer, Tech Lead"
-  organization = "Google, Ireland"
-  avatar = "sadlil.jpg"
-  email = "kzirtm@gmail.com"
-  address = "Dublin, Ireland"
-  phone = "+353-0873537624"
-  github = "sadlil"
-  telegram = "sadlil"
+name = "Sadlil Rhythom"
+role = "Senior Software Engineer, Tech Lead"
+organization = "Google, Ireland"
+avatar = "sadlil.jpg"
+email = "kzirtm@gmail.com"
+address = "Dublin, Ireland"
+phone = "+353-873537624"
+github = "sadlil"
 
-  # Enable Keybase in Contact section by entering your keybase.io username.
-  keybase = "sadlil"
 
-  # Date format (refer to Go's date format: http://flippinggodateformat.com )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Mon, Jan 2, 2006"
+# Date format (refer to Go's date format: http://flippinggodateformat.com )
+#   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+date_format = "Mon, Jan 2, 2006"
 
-  # Enable global LaTeX math rendering?
-  #   If false, you can enable it locally on a per page basis.
-  math = false
+# Enable global LaTeX math rendering?
+#   If false, you can enable it locally on a per page basis.
+math = false
 
-  # Highlight.js options
-  #   highlight
-  #     Enable global source code highlighting?  If false, you can
-  #     override it for a particular page in that page's preamble.
-  #
-  #     Example: highlight = true
-  #
-  #   highlight_languages
-  #     Add support for highlighting additional languages. Support for
-  #     languages mentioned here will be included in all pages. You
-  #     can also set this variable for a particular page in that
-  #     page's preamble.
-  #
-  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
-  #
-  #   highlight_style
-  #     Choose a different CSS style for highlighting source
-  #     code. Setting this option in a page's preamble has no
-  #     effect.
-  #
-  #     Example: highlight_style = "github-gist"
-  #
-  #   highlight_version
-  #     Choose the version of highlight.js you want. Setting this
-  #     option in a page's preamble has no effect.
-  #
-  #     Example: highlight_version = "9.9.0"
-  #
-  #   For the list of supported languages, styles, and versions, see:
-  #   https://cdnjs.com/libraries/highlight.js/
-  #
-  #   For more info on the highlighting options, see:
-  #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
-  highlight = true
-  highlight_languages = ["go", "makefile", "cpp", "python", "json", "yaml", "bash"]
-  highlight_style = "googlecode"
-  highlight_version = "9.15.10"
+# Highlight.js options
+#   highlight
+#     Enable global source code highlighting?  If false, you can
+#     override it for a particular page in that page's preamble.
+#
+#     Example: highlight = true
+#
+#   highlight_languages
+#     Add support for highlighting additional languages. Support for
+#     languages mentioned here will be included in all pages. You
+#     can also set this variable for a particular page in that
+#     page's preamble.
+#
+#     Example: highlight_languages = ["go", "lisp", "ocaml"]
+#
+#   highlight_style
+#     Choose a different CSS style for highlighting source
+#     code. Setting this option in a page's preamble has no
+#     effect.
+#
+#     Example: highlight_style = "github-gist"
+#
+#   highlight_version
+#     Choose the version of highlight.js you want. Setting this
+#     option in a page's preamble has no effect.
+#
+#     Example: highlight_version = "9.9.0"
+#
+#   For the list of supported languages, styles, and versions, see:
+#   https://cdnjs.com/libraries/highlight.js/
+#
+#   For more info on the highlighting options, see:
+#   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
+highlight = true
+highlight_languages = [
+  "go",
+  "makefile",
+  "cpp",
+  "python",
+  "json",
+  "yaml",
+  "bash",
+]
+highlight_style = "googlecode"
+highlight_version = "9.15.10"
 
-  # Enable native social sharing buttons?
-  sharing = true
+# Enable native social sharing buttons?
+sharing = true
 
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  custom_css = []
-  custom_js  = []
+# Link custom CSS and JS assets
+#   (relative to /static/css and /static/js respectively)
+custom_css = []
+custom_js = []
 
-  # Publication types.
-  #   Used to categorize publications.
-  #   The index of the publication type in the list is used as its unique numerical identifier.
-  #   The numeric ID is used in a publication's frontmatter to categorize it.
-  #   The language can be edited below.
-  #   For multi-lingual sites, copy this block to each language section at the end of this file.
-  publication_types = [
-    'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Journal',  # 2
-    'Work in progress',  # 3
-    'Technical report',  # 4
-    'Book',  # 5
-    'Book chapter'  # 6
-  ]
+# Publication types.
+#   Used to categorize publications.
+#   The index of the publication type in the list is used as its unique numerical identifier.
+#   The numeric ID is used in a publication's frontmatter to categorize it.
+#   The language can be edited below.
+#   For multi-lingual sites, copy this block to each language section at the end of this file.
+publication_types = [
+  'Uncategorized',          # 0
+  'Conference proceedings', # 1
+  'Journal',                # 2
+  'Work in progress',       # 3
+  'Technical report',       # 4
+  'Book',                   # 5
+  'Book chapter',           # 6
+]
 
-  # Social/Academic Networking
-  #
-  # Icon pack "fa" includes the following social network icons:
-  #
-  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
-  #   youtube, instagram, soundcloud
-  #
-  #   For email icon, use "fa" icon pack, "envelope" icon, and
-  #   "mailto:your@email.com" as the link.
-  #
-  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
-  #
-  # Icon pack "ai" includes the following academic network icons:
-  #
-  #   google-scholar, arxiv, orcid, researchgate, mendeley
-  #
-  #   Full list: https://jpswalsh.github.io/academicons/
+# Social/Academic Networking
+#
+# Icon pack "fa" includes the following social network icons:
+#
+#   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+#   youtube, instagram, soundcloud
+#
+#   For email icon, use "fa" icon pack, "envelope" icon, and
+#   "mailto:your@email.com" as the link.
+#
+#   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+#
+# Icon pack "ai" includes the following academic network icons:
+#
+#   google-scholar, arxiv, orcid, researchgate, mendeley
+#
+#   Full list: https://jpswalsh.github.io/academicons/
 
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:sadlil.rhythm@gmail.com"
+[[params.social]]
+icon = "envelope"
+icon_pack = "fa"
+link = "mailto:sadlil.rhythm@gmail.com"
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/ksadlil"
+[[params.social]]
+icon = "twitter-square"
+icon_pack = "fa"
+link = "//x.com/ksadlil"
 
-  [[params.social]]
-    icon = "github"
-    icon_pack = "fa"
-    link = "//github.com/sadlil"
+[[params.social]]
+icon = "github"
+icon_pack = "fa"
+link = "//github.com/sadlil"
 
-  [[params.social]]
-      icon = "linkedin-square"
-      icon_pack = "fa"
-      link = "https://bd.linkedin.com/in/sadlil"
+[[params.social]]
+icon = "linkedin-square"
+icon_pack = "fa"
+link = "https://www.linkedin.com/in/sadlil/"
 
-  [[params.social]]
-      icon = "stack-overflow"
-      icon_pack = "fa"
-      link = "http://stackoverflow.com/users/3476121/sadlil"
+[[params.social]]
+icon = "stack-overflow"
+icon_pack = "fa"
+link = "http://stackoverflow.com/users/3476121/sadlil"
 
-  [[params.social]]
-      icon = "gitlab"
-      icon_pack = "fa"
-      link = "https://gitlab.com/sadlil"
+[[params.social]]
+icon = "gitlab"
+icon_pack = "fa"
+link = "https://gitlab.com/sadlil"
 
-  [[params.social]]
-      icon = "facebook"
-      icon_pack = "fa"
-      link = "https://www.facebook.com/ksadlil/"
+[[params.social]]
+icon = "facebook"
+icon_pack = "fa"
+link = "https://www.facebook.com/ksadlil/"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -162,58 +167,53 @@ pygmentsStyle = "colorful"
 #   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
+name = "Home"
+url = "#about"
+weight = 1
 
 [[menu.main]]
-  name = "Experience"
-  url = "#works"
-  weight = 2
+name = "Experience"
+url = "#works"
+weight = 2
 
 [[menu.main]]
-  name = "Achievements"
-  url = "#achievements"
-  weight = 3
+name = "Publications"
+url = "#publications"
+weight = 2
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications"
-  weight = 2
+name = "Blog"
+url = "/blog/"
+weight = 17
 
 [[menu.main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 17
+name = "Photography"
+url = "https://www.flickr.com/photos/80878359@N08/"
+weight = 19
+
+# [[menu.main]]
+# name = "Projects"
+# url = "#projects"
+# weight = 2
 
 [[menu.main]]
-  name = "Photography"
-  url = "https://www.flickr.com/photos/80878359@N08/"
-  weight = 19
+name = "Resume"
+url = "https://sadlil.com/downloads/sadlil-resume-v6.1.3.pdf"
+weight = 21
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 2
-
-[[menu.main]]
-  name = "Resume"
-  url = "https://sadlil.com/downloads/sadlil-resume-v6.1.3.pdf"
-  weight = 21
-
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 20
+name = "Contact"
+url = "#contact"
+weight = 20
 
 # Taxonomies.
 [taxonomies]
-  tag = "tags"
-  category = "categories"
+tag = "tags"
+category = "categories"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
 [languages.en]
-  languageCode = "en-us"
+languageCode = "en-us"
