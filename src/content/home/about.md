@@ -44,9 +44,13 @@ Have proven track record of designing and implementing scalable, reliable large 
 
 [ENTJ-A (The Commander)](https://www.16personalities.com/profiles/57a0bb3ee941e)
 
+Commanders are bold, imaginative, and strong-willed, always finding a way – or making one. These decisive types love momentum and accomplishment, often acting on their creative visions.
 <hr>
 
 #### Life Philosophy
 
 *I don't Believe in Magic*.
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7113844045629513728" height="704" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 <hr>
