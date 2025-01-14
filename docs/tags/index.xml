@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sadlil Rhythom</title>
-    <link>https://sadlil.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Sadlil Rhythom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Kazi Sadlil Rhythom</copyright>
     <lastBuildDate>Tue, 05 Nov 2019 10:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sadlil.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>life</title>
-      <link>https://sadlil.com/tags/life/</link>
+      <link>http://localhost:1313/tags/life/</link>
       <pubDate>Tue, 05 Nov 2019 10:30:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/tags/life/</guid>
+      <guid>http://localhost:1313/tags/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>database</title>
-      <link>https://sadlil.com/tags/database/</link>
+      <link>http://localhost:1313/tags/database/</link>
       <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/tags/database/</guid>
+      <guid>http://localhost:1313/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deadlock</title>
-      <link>https://sadlil.com/tags/deadlock/</link>
+      <link>http://localhost:1313/tags/deadlock/</link>
       <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/tags/deadlock/</guid>
+      <guid>http://localhost:1313/tags/deadlock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mysql</title>
-      <link>https://sadlil.com/tags/mysql/</link>
+      <link>http://localhost:1313/tags/mysql/</link>
       <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/tags/mysql/</guid>
+      <guid>http://localhost:1313/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software engineering</title>
-      <link>https://sadlil.com/tags/software-engineering/</link>
+      <link>http://localhost:1313/tags/software-engineering/</link>
       <pubDate>Sat, 21 Apr 2018 10:30:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/tags/software-engineering/</guid>
+      <guid>http://localhost:1313/tags/software-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>acm</title>
-      <link>https://sadlil.com/tags/acm/</link>
+      <link>http://localhost:1313/tags/acm/</link>
       <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/tags/acm/</guid>
+      <guid>http://localhost:1313/tags/acm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bangla</title>
-      <link>https://sadlil.com/tags/bangla/</link>
+      <link>http://localhost:1313/tags/bangla/</link>
       <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/tags/bangla/</guid>
+      <guid>http://localhost:1313/tags/bangla/</guid>
       <description></description>
     </item>
     
     <item>
       <title>number theory</title>
-      <link>https://sadlil.com/tags/number-theory/</link>
+      <link>http://localhost:1313/tags/number-theory/</link>
       <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/tags/number-theory/</guid>
+      <guid>http://localhost:1313/tags/number-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>prime</title>
-      <link>https://sadlil.com/tags/prime/</link>
+      <link>http://localhost:1313/tags/prime/</link>
       <pubDate>Mon, 03 Feb 2014 11:00:00 +0000</pubDate>
       
-      <guid>https://sadlil.com/tags/prime/</guid>
+      <guid>http://localhost:1313/tags/prime/</guid>
       <description></description>
     </item>
     
