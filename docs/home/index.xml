@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Sadlil Rhythom</title>
-    <link>http://localhost:1313/home/</link>
+    <link>https://sadlil.com/home/</link>
     <description>Recent content in Homes on Sadlil Rhythom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Kazi Sadlil Rhythom</copyright>
     <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sadlil.com/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://localhost:1313/home/about/</link>
+      <link>https://sadlil.com/home/about/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/home/about/</guid>
+      <guid>https://sadlil.com/home/about/</guid>
       <description>I don&amp;rsquo;t Believe in Magic.
 Behind every seemingly magical feat lies careful planning, meticulous design, effective collaboration, and skilled execution. Software Engineer and Tech Lead at Google.
 Currently building Software Echo-system that powers the Design, Deployment, Monitoring, and Operation of Google&amp;rsquo;s Planet Scale Enterprise Network. Software Engineer with extensive SRE expertise.
@@ -26,47 +26,47 @@ Have proven track record of designing and implementing scalable, reliable large 
     
     <item>
       <title>Experiences</title>
-      <link>http://localhost:1313/home/works/</link>
+      <link>https://sadlil.com/home/works/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/home/works/</guid>
+      <guid>https://sadlil.com/home/works/</guid>
       <description>Senior Software Engineer, Tech Lead Google, Ireland.   March 2023 – Present  Full Time  Golang Tech Lead Software Architecture Intent Driven Networking  Leading the Software and automation echo-system to ensure Security, Safety and Compliance of Google&amp;rsquo;s Planet Scale Enterprise Networking.   
 Software Engineer, Tech Lead - Google Enterprise Network Google, Ireland.   April 2022 – Feb 2023  Full Time  Golang Tech Lead Software Architecture  Software Engineer and Tech Lead at Google Enterprise Networking.</description>
     </item>
     
     <item>
       <title>Skills</title>
-      <link>http://localhost:1313/home/skills/</link>
+      <link>https://sadlil.com/home/skills/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/home/skills/</guid>
+      <guid>https://sadlil.com/home/skills/</guid>
       <description>Go C++  gRPC Protocol Buffer Docker Kubernetes GCP AWS  ElasticSearch MySQL PostgreSQL Presto Kafka SQS  Prometheus Grafana Loki  Software Architecture Software Desing  Software Defined Networking Intent Driven Networking  Technical Leadership Mentoring Teaching   </description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>http://localhost:1313/home/blogs/</link>
+      <link>https://sadlil.com/home/blogs/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/home/blogs/</guid>
+      <guid>https://sadlil.com/home/blogs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/home/publications/</link>
+      <link>https://sadlil.com/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/home/publications/</guid>
+      <guid>https://sadlil.com/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/home/contact/</link>
+      <link>https://sadlil.com/home/contact/</link>
       <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/home/contact/</guid>
+      <guid>https://sadlil.com/home/contact/</guid>
       <description>                              </description>
     </item>
     

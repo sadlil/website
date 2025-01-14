@@ -3,7 +3,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/</loc>
+      <loc>https://sadlil.com/</loc>
       <lastmod>2024-08-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -12,7 +12,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/tags/</loc>
+      <loc>https://sadlil.com/tags/</loc>
       <lastmod>2019-11-05T10:30:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -21,7 +21,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/blog/bucket-list/</loc>
+      <loc>https://sadlil.com/blog/bucket-list/</loc>
       <lastmod>2019-11-05T10:30:00+00:00</lastmod>
     </url>
     
@@ -29,7 +29,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/tags/life/</loc>
+      <loc>https://sadlil.com/tags/life/</loc>
       <lastmod>2019-11-05T10:30:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -38,7 +38,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/blog/mysql-deadlock/</loc>
+      <loc>https://sadlil.com/blog/mysql-deadlock/</loc>
       <lastmod>2018-04-21T10:30:00+00:00</lastmod>
     </url>
     
@@ -46,16 +46,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/tags/database/</loc>
-      <lastmod>2018-04-21T10:30:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>http://localhost:1313/tags/deadlock/</loc>
+      <loc>https://sadlil.com/tags/database/</loc>
       <lastmod>2018-04-21T10:30:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -64,7 +55,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/tags/mysql/</loc>
+      <loc>https://sadlil.com/tags/deadlock/</loc>
       <lastmod>2018-04-21T10:30:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -73,7 +64,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/tags/software-engineering/</loc>
+      <loc>https://sadlil.com/tags/mysql/</loc>
       <lastmod>2018-04-21T10:30:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -82,7 +73,16 @@
     
     
     <url>
-      <loc>http://localhost:1313/blog/</loc>
+      <loc>https://sadlil.com/tags/software-engineering/</loc>
+      <lastmod>2018-04-21T10:30:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://sadlil.com/blog/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -90,7 +90,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/project/</loc>
+      <loc>https://sadlil.com/project/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -98,7 +98,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/publication/</loc>
+      <loc>https://sadlil.com/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -106,7 +106,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/publication/false-alarm/</loc>
+      <loc>https://sadlil.com/publication/false-alarm/</loc>
       <lastmod>2015-10-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -114,7 +114,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/tags/acm/</loc>
+      <loc>https://sadlil.com/tags/acm/</loc>
       <lastmod>2014-02-03T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -123,7 +123,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/tags/bangla/</loc>
+      <loc>https://sadlil.com/tags/bangla/</loc>
       <lastmod>2014-02-03T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -132,7 +132,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/tags/number-theory/</loc>
+      <loc>https://sadlil.com/tags/number-theory/</loc>
       <lastmod>2014-02-03T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -141,7 +141,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/tags/prime/</loc>
+      <loc>https://sadlil.com/tags/prime/</loc>
       <lastmod>2014-02-03T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -150,7 +150,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/blog/prime-bit-seive-bangla/</loc>
+      <loc>https://sadlil.com/blog/prime-bit-seive-bangla/</loc>
       <lastmod>2014-02-03T11:00:00+00:00</lastmod>
     </url>
     
@@ -158,7 +158,7 @@
     
     
     <url>
-      <loc>http://localhost:1313/categories/</loc>
+      <loc>https://sadlil.com/categories/</loc>
       <priority>0</priority>
     </url>
     

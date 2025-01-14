@@ -10,7 +10,7 @@
 
 <body>
   <div class="container">
-    <h1>Stocks Weighted Average</h1>
+    <h1>Stock Tools</h1>
 
     <div class="input-group horizontal">
       <div class="input-item">
@@ -35,6 +35,11 @@
           <input type="number" id="new-price" value="0">
         </div>
         <button id="calculate-average">Calculate New Average</button>
+
+        <div class="result">
+          <b>New Average Price:</b>
+          <p id="result-text-avg"></p>
+        </div>
       </div>
 
       <div class="option">
@@ -48,12 +53,31 @@
           <input type="number" id="target-average" value="0">
         </div>
         <button id="calculate-shares">Calculate Shares Needed</button>
-      </div>
-    </div>
 
-    <div class="result">
-      <h2>Result:</h2>
-      <p id="result-text"></p>
+        <div class="result">
+          <b>Shares needed:</b>
+          <p id="result-text-shares"></p>
+        </div>
+      </div>
+
+      <div class="option">
+        <h2>Calculate Gains</h2>
+        <div class="input-group">
+          <label for="gains-shares">Number of New Shares to Sell:</label>
+          <input type="number" id="gains-shares" value="0">
+        </div>
+        <div class="input-group">
+          <label for="gains-price">Sell price:</label>
+          <input type="number" id="gains-price" value="0">
+        </div>
+        <button id="calculate-gains">Calculate Gains</button>
+
+        <div class="result">
+          <b>Gains (+Profit/-Loss): </b>
+          <p id="result-text-gains"></p>
+        </div>
+      </div>
+
     </div>
   </div>
 

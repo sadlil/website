@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Sadlil Rhythom</title>
-    <link>http://localhost:1313/project/</link>
+    <link>https://sadlil.com/project/</link>
     <description>Recent content in Projects on Sadlil Rhythom</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2024 Kazi Sadlil Rhythom</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sadlil.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
