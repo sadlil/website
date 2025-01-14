@@ -45,6 +45,17 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function calculateSharesToBuy(currentShares, currentAverage, currentPrice, targetAverage) {
+    // --- Input Validation and Safety Checks ---
+
+    if (
+      typeof currentShares !== 'number' ||
+      typeof currentAverage !== 'number' ||
+      typeof currentPrice !== 'number' ||
+      typeof targetAverage !== 'number'
+    ) {
+      return null; // Invalid input types
+    }
+
     if (
       currentShares < 0 ||
       currentAverage < 0 ||
